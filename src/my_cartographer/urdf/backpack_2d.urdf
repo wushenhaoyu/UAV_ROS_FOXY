@@ -22,7 +22,7 @@
       </geometry>
     </collision>
   </link>
-
+  
   <!-- 激光雷达 -->
   <link name="laser">
     <inertial>

@@ -1,0 +1,154 @@
+[0.133s] Invoking command in '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/imu:/opt/ros/foxy:/home/ubuntu/Desktop/cartographer_ws/install/serial:/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer LD_LIBRARY_PATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib:/home/ubuntu/Desktop/cartographer_ws/install/serial/lib:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/build/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/tf_init/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/imu/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/ubuntu/Desktop/cartographer_ws/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver
+[0.364s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[0.397s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.515s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.678s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.230s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.583s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.587s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.582s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[4.630s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[5.295s] -- The imported target "vtkParseOGLExt" references the file
+[5.295s]    "/usr/bin/vtkParseOGLExt-7.1"
+[5.295s] but this file does not exist.  Possible reasons include:
+[5.295s] * The file was deleted, renamed, or moved to another location.
+[5.295s] * An install or uninstall procedure did not complete successfully.
+[5.298s] * The installation package was faulty and contained
+[5.298s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.299s] but not all the files it references.
+[5.299s] 
+[5.305s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[5.305s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[5.305s] but this file does not exist.  Possible reasons include:
+[5.305s] * The file was deleted, renamed, or moved to another location.
+[5.305s] * An install or uninstall procedure did not complete successfully.
+[5.305s] * The installation package was faulty and contained
+[5.306s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.306s] but not all the files it references.
+[5.306s] 
+[5.316s] -- The imported target "vtk" references the file
+[5.316s]    "/usr/bin/vtk"
+[5.316s] but this file does not exist.  Possible reasons include:
+[5.321s] * The file was deleted, renamed, or moved to another location.
+[5.322s] * An install or uninstall procedure did not complete successfully.
+[5.322s] * The installation package was faulty and contained
+[5.322s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.322s] but not all the files it references.
+[5.322s] 
+[5.322s] -- The imported target "pvtk" references the file
+[5.323s]    "/usr/bin/pvtk"
+[5.323s] but this file does not exist.  Possible reasons include:
+[5.323s] * The file was deleted, renamed, or moved to another location.
+[5.323s] * An install or uninstall procedure did not complete successfully.
+[5.323s] * The installation package was faulty and contained
+[5.323s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.324s] but not all the files it references.
+[5.324s] 
+[5.540s] -- Checking for module 'libusb-1.0'
+[5.626s] --   No package 'libusb-1.0' found
+[5.640s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.641s] -- OpenNI disabled because libusb-1.0 not found.
+[5.645s] ** WARNING ** io features related to openni will be disabled
+[5.698s] -- Checking for module 'libusb-1.0'
+[5.728s] --   No package 'libusb-1.0' found
+[5.741s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.742s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[5.753s] ** WARNING ** io features related to openni2 will be disabled
+[5.753s] ** WARNING ** io features related to pcap will be disabled
+[5.753s] ** WARNING ** io features related to png will be disabled
+[5.825s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[5.826s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[5.856s] -- Checking for module 'libusb-1.0'
+[5.883s] --   No package 'libusb-1.0' found
+[5.900s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.900s] -- OpenNI disabled because libusb-1.0 not found.
+[5.902s] ** WARNING ** visualization features related to openni will be disabled
+[5.939s] -- Checking for module 'libusb-1.0'
+[5.963s] --   No package 'libusb-1.0' found
+[5.988s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.989s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[5.990s] ** WARNING ** visualization features related to openni2 will be disabled
+[6.080s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[6.130s] -- Checking for module 'libusb-1.0'
+[6.159s] --   No package 'libusb-1.0' found
+[6.167s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[6.168s] -- OpenNI disabled because libusb-1.0 not found.
+[6.175s] ** WARNING ** apps features related to openni will be disabled
+[6.246s] -- looking for PCL_COMMON
+[6.255s] -- looking for PCL_KDTREE
+[6.257s] -- looking for PCL_OCTREE
+[6.264s] -- looking for PCL_SEARCH
+[6.276s] -- looking for PCL_SAMPLE_CONSENSUS
+[6.281s] -- looking for PCL_FILTERS
+[6.288s] -- looking for PCL_2D
+[6.303s] -- looking for PCL_GEOMETRY
+[6.311s] -- looking for PCL_IO
+[6.314s] -- looking for PCL_FEATURES
+[6.316s] -- looking for PCL_ML
+[6.326s] -- looking for PCL_SEGMENTATION
+[6.330s] -- looking for PCL_VISUALIZATION
+[6.339s] -- looking for PCL_SURFACE
+[6.341s] -- looking for PCL_REGISTRATION
+[6.347s] -- looking for PCL_KEYPOINTS
+[6.349s] -- looking for PCL_TRACKING
+[6.355s] -- looking for PCL_RECOGNITION
+[6.363s] -- looking for PCL_STEREO
+[6.365s] -- looking for PCL_APPS
+[6.373s] -- looking for PCL_IN_HAND_SCANNER
+[6.386s] -- looking for PCL_POINT_CLOUD_EDITOR
+[6.388s] -- looking for PCL_OUTOFCORE
+[6.405s] -- looking for PCL_PEOPLE
+[6.432s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[6.836s] -- Found lslidar_msgs: 1.2.0 (/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[7.032s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[7.164s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[9.983s] -- Configuring done
+[10.819s] -- Generating done
+[10.843s] -- Build files have been written to: /home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver
+[10.901s] Invoked command in '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/imu:/opt/ros/foxy:/home/ubuntu/Desktop/cartographer_ws/install/serial:/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer LD_LIBRARY_PATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib:/home/ubuntu/Desktop/cartographer_ws/install/serial/lib:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/build/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/tf_init/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/imu/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/ubuntu/Desktop/cartographer_ws/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver
+[10.910s] Invoking command in '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/imu:/opt/ros/foxy:/home/ubuntu/Desktop/cartographer_ws/install/serial:/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer LD_LIBRARY_PATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib:/home/ubuntu/Desktop/cartographer_ws/install/serial/lib:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/build/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/tf_init/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/imu/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver -- -j2 -l2
+[11.477s] [100%] Built target lslidar_driver_node
+[11.573s] Invoked command in '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/imu:/opt/ros/foxy:/home/ubuntu/Desktop/cartographer_ws/install/serial:/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer LD_LIBRARY_PATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib:/home/ubuntu/Desktop/cartographer_ws/install/serial/lib:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/build/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/tf_init/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/imu/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver -- -j2 -l2
+[11.967s] Invoking command in '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/imu:/opt/ros/foxy:/home/ubuntu/Desktop/cartographer_ws/install/serial:/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer LD_LIBRARY_PATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib:/home/ubuntu/Desktop/cartographer_ws/install/serial/lib:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/build/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/tf_init/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/imu/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver
+[12.017s] -- Install configuration: ""
+[12.023s] -- Execute custom install script
+[12.028s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[12.029s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+[12.033s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+[12.034s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+[12.036s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+[12.037s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+[12.038s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+[12.039s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+[12.040s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+[12.043s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py
+[12.045s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml
+[12.050s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml
+[12.051s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml
+[12.052s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml
+[12.054s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml
+[12.055s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml
+[12.056s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml
+[12.057s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml
+[12.059s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[12.062s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[12.063s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[12.064s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[12.066s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[12.068s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[12.072s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[12.073s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[12.075s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[12.076s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[12.077s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[12.078s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[12.081s] -- Symlinking: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+[12.155s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[12.156s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.157s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.159s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[12.162s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[12.179s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/package.xml
+[12.192s] Invoked command in '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/imu:/opt/ros/foxy:/home/ubuntu/Desktop/cartographer_ws/install/serial:/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer LD_LIBRARY_PATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib:/home/ubuntu/Desktop/cartographer_ws/install/serial/lib:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/build/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/tf_init/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/imu/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver

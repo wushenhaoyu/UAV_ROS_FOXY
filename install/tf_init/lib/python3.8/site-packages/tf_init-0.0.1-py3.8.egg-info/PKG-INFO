@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: tf-init
+Version: 0.0.1
+Summary: A package to publish TF from base_link to map
+Home-page: UNKNOWN
+Maintainer: your_name
+Maintainer-email: your_email@example.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

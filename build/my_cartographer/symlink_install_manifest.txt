@@ -15,4 +15,5 @@
 /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/package.xml
 /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/config/my_cartogrpaher_2d.lua
 /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/launch/run_launch.py
+/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/rviz/default.rviz
 /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/urdf/backpack_2d.urdf

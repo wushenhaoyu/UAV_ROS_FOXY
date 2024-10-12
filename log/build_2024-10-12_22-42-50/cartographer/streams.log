@@ -1,0 +1,322 @@
+[0.132s] Invoking command in '/home/ubuntu/Desktop/cartographer_ws/build/cartographer': CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/cartographer_ws/install/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/imu:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ubuntu/Desktop/cartographer_ws/build/cartographer -- -j2 -l2
+[1.015s] [  1%] Built target gtest
+[1.404s] [  1%] Built target cartographer_detect_changes
+[1.712s] [  1%] [34m[1mBuilding documentation.[0m
+[1.923s] [35m[1mScanning dependencies of target cartographer[0m
+[3.823s] [  1%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/range_data_collator.cc.o[0m
+[4.905s] [01mRunning Sphinx v1.8.5[39;49;00m
+[7.083s] [01mloading pickled environment... [39;49;00mdone
+[7.115s] [01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[7.149s] [01mbuilding [html][39;49;00m: targets for 0 source files that are out of date
+[7.151s] [01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[7.161s] [01mlooking for now-outdated files... [39;49;00mnone found
+[7.162s] [01mno targets are out of date.[39;49;00m
+[7.162s] [01mbuild succeeded.[39;49;00m
+[7.162s] 
+[7.162s] The HTML pages are in html.
+[7.619s] [  1%] Built target build_doc
+[24.860s] [  1%] [32m[1mLinking CXX static library libcartographer.a[0m
+[25.977s] [ 54%] Built target cartographer
+[26.231s] [ 55%] Built target gmock
+[26.478s] [ 56%] Built target cartographer_test_library
+[26.721s] [ 56%] [32m[1mLinking CXX executable cartographer_compute_relations_metrics[0m
+[27.807s] [ 56%] Built target cartographer_compute_relations_metrics
+[28.040s] [ 56%] [32m[1mLinking CXX executable cartographer_migrate_serialization_format[0m
+[29.167s] [ 57%] Built target cartographer_migrate_serialization_format
+[29.465s] [ 57%] [32m[1mLinking CXX executable cartographer_autogenerate_ground_truth[0m
+[30.499s] [ 58%] Built target cartographer_autogenerate_ground_truth
+[30.734s] [ 58%] Built target gmock_main
+[31.024s] [ 58%] [32m[1mLinking CXX executable cartographer.transform.transform_test[0m
+[31.770s] [ 58%] Built target cartographer.transform.transform_test
+[31.953s] [ 58%] [32m[1mLinking CXX executable cartographer.sensor.range_data_test[0m
+[32.591s] [ 58%] Built target cartographer.sensor.range_data_test
+[32.827s] [ 58%] [32m[1mLinking CXX executable cartographer.sensor.internal.voxel_filter_test[0m
+[33.695s] [ 58%] Built target cartographer.sensor.internal.voxel_filter_test
+[33.992s] [ 58%] [32m[1mLinking CXX executable cartographer.mapping.pose_graph_test[0m
+[35.278s] [ 59%] Built target cartographer.mapping.pose_graph_test
+[35.475s] [ 60%] [32m[1mLinking CXX executable cartographer.mapping.3d.range_data_inserter_3d_test[0m
+[36.276s] [ 60%] Built target cartographer.mapping.3d.range_data_inserter_3d_test
+[36.480s] [ 61%] [32m[1mLinking CXX executable cartographer.mapping.2d.probability_grid_test[0m
+[37.412s] [ 61%] Built target cartographer.mapping.2d.probability_grid_test
+[37.595s] [ 62%] [32m[1mLinking CXX executable cartographer.sensor.landmark_data_test[0m
+[38.473s] [ 62%] Built target cartographer.sensor.landmark_data_test
+[38.764s] [ 62%] [32m[1mLinking CXX executable cartographer.mapping.3d.hybrid_grid_test[0m
+[39.250s] [ 63%] Built target cartographer.mapping.3d.hybrid_grid_test
+[39.409s] [ 64%] [32m[1mLinking CXX executable cartographer.io.points_processor_pipeline_builder_test[0m
+[40.520s] [ 64%] Built target cartographer.io.points_processor_pipeline_builder_test
+[40.673s] [ 64%] [32m[1mLinking CXX executable cartographer.common.fixed_ratio_sampler_test[0m
+[41.530s] [ 65%] Built target cartographer.common.fixed_ratio_sampler_test
+[41.805s] [ 65%] [32m[1mLinking CXX executable cartographer.common.rate_timer_test[0m
+[42.521s] [ 66%] Built target cartographer.common.rate_timer_test
+[42.699s] [ 67%] [32m[1mLinking CXX executable cartographer.io.serialization_format_migration_test[0m
+[43.679s] [ 67%] Built target cartographer.io.serialization_format_migration_test
+[43.984s] [ 67%] [32m[1mLinking CXX executable cartographer.mapping.2d.map_limits_test[0m
+[44.899s] [ 67%] Built target cartographer.mapping.2d.map_limits_test
+[45.195s] [ 67%] [32m[1mLinking CXX executable cartographer.mapping.trajectory_node_test[0m
+[46.058s] [ 67%] Built target cartographer.mapping.trajectory_node_test
+[46.356s] [ 68%] [32m[1mLinking CXX executable cartographer.mapping.submaps_test[0m
+[47.120s] [ 68%] Built target cartographer.mapping.submaps_test
+[47.379s] [ 68%] [32m[1mLinking CXX executable cartographer.mapping.3d.submap_3d_test[0m
+[48.894s] [ 68%] Built target cartographer.mapping.3d.submap_3d_test
+[49.183s] [ 68%] [32m[1mLinking CXX executable cartographer.mapping.internal.constraints.constraint_builder_3d_test[0m
+[50.839s] [ 69%] Built target cartographer.mapping.internal.constraints.constraint_builder_3d_test
+[51.056s] [ 69%] [32m[1mLinking CXX executable cartographer.io.proto_stream_deserializer_test[0m
+[52.301s] [ 69%] Built target cartographer.io.proto_stream_deserializer_test
+[52.544s] [ 70%] [32m[1mLinking CXX executable cartographer.common.lockless_queue_test[0m
+[53.377s] [ 70%] Built target cartographer.common.lockless_queue_test
+[53.702s] [ 70%] [32m[1mLinking CXX executable cartographer.mapping.2d.range_data_inserter_2d_test[0m
+[54.567s] [ 70%] Built target cartographer.mapping.2d.range_data_inserter_2d_test
+[54.865s] [ 70%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test[0m
+[56.075s] [ 70%] Built target cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test
+[56.240s] [ 71%] [32m[1mLinking CXX executable cartographer.common.blocking_queue_test[0m
+[57.082s] [ 71%] Built target cartographer.common.blocking_queue_test
+[57.349s] [ 72%] [32m[1mLinking CXX executable cartographer.mapping.internal.motion_filter_test[0m
+[58.152s] [ 72%] Built target cartographer.mapping.internal.motion_filter_test
+[58.483s] [ 72%] [32m[1mLinking CXX executable cartographer.sensor.point_cloud_test[0m
+[59.096s] [ 73%] Built target cartographer.sensor.point_cloud_test
+[59.277s] [ 73%] [32m[1mLinking CXX executable cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test[0m
+[59.665s] [ 73%] Built target cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test
+[59.786s] [ 73%] [32m[1mLinking CXX executable cartographer.io.proto_stream_test[0m
+[60.267s] [ 74%] Built target cartographer.io.proto_stream_test
+[60.390s] [ 75%] [32m[1mLinking CXX executable cartographer.transform.transform_interpolation_buffer_test[0m
+[60.847s] [ 75%] Built target cartographer.transform.transform_interpolation_buffer_test
+[60.968s] [ 75%] [32m[1mLinking CXX executable cartographer.common.lua_parameter_dictionary_test[0m
+[61.399s] [ 75%] Built target cartographer.common.lua_parameter_dictionary_test
+[61.535s] [ 76%] [32m[1mLinking CXX executable cartographer.io.fake_file_writer_test[0m
+[61.927s] [ 76%] Built target cartographer.io.fake_file_writer_test
+[62.121s] [ 77%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test[0m
+[62.749s] [ 77%] Built target cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test
+[62.933s] [ 78%] [32m[1mLinking CXX executable cartographer.common.math_test[0m
+[63.376s] [ 78%] Built target cartographer.common.math_test
+[63.501s] [ 78%] [32m[1mLinking CXX executable cartographer.io.internal.in_memory_proto_stream_test[0m
+[64.103s] [ 78%] Built target cartographer.io.internal.in_memory_proto_stream_test
+[64.271s] [ 78%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test[0m
+[64.909s] [ 78%] Built target cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test
+[65.055s] [ 78%] [32m[1mLinking CXX executable cartographer.common.optional_test[0m
+[65.537s] [ 78%] Built target cartographer.common.optional_test
+[65.673s] [ 78%] [32m[1mLinking CXX executable cartographer.mapping.id_test[0m
+[66.046s] [ 79%] Built target cartographer.mapping.id_test
+[66.193s] [ 79%] [32m[1mLinking CXX executable cartographer.mapping.2d.submap_2d_test[0m
+[66.860s] [ 80%] Built target cartographer.mapping.2d.submap_2d_test
+[67.012s] [ 80%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test[0m
+[67.610s] [ 81%] Built target cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test
+[67.766s] [ 81%] [32m[1mLinking CXX executable cartographer.mapping.internal.optimization.optimization_problem_3d_test[0m
+[68.338s] [ 82%] Built target cartographer.mapping.internal.optimization.optimization_problem_3d_test
+[68.495s] [ 82%] [32m[1mLinking CXX executable cartographer.common.configuration_files_test[0m
+[69.486s] [ 82%] Built target cartographer.common.configuration_files_test
+[69.629s] [ 83%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test[0m
+[70.096s] [ 83%] Built target cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test
+[70.226s] [ 83%] [32m[1mLinking CXX executable cartographer.common.thread_pool_test[0m
+[70.631s] [ 84%] Built target cartographer.common.thread_pool_test
+[70.731s] [ 85%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.pose_graph_2d_test[0m
+[71.660s] [ 85%] Built target cartographer.mapping.internal.2d.pose_graph_2d_test
+[71.839s] [ 85%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.pose_graph_3d_test[0m
+[72.927s] [ 85%] Built target cartographer.mapping.internal.3d.pose_graph_3d_test
+[73.069s] [ 85%] [32m[1mLinking CXX executable cartographer.mapping.pose_graph_trimmer_test[0m
+[73.579s] [ 85%] Built target cartographer.mapping.pose_graph_trimmer_test
+[73.791s] [ 85%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test[0m
+[74.272s] [ 86%] Built target cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test
+[74.418s] [ 86%] [32m[1mLinking CXX executable cartographer.mapping.internal.range_data_collator_test[0m
+[74.761s] [ 86%] Built target cartographer.mapping.internal.range_data_collator_test
+[74.959s] [ 87%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.local_trajectory_builder_3d_test[0m
+[75.713s] [ 87%] Built target cartographer.mapping.internal.3d.local_trajectory_builder_3d_test
+[75.883s] [ 88%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test[0m
+[76.250s] [ 88%] Built target cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test
+[76.444s] [ 88%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test[0m
+[76.914s] [ 89%] Built target cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test
+[77.061s] [ 89%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test[0m
+[77.509s] [ 90%] Built target cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test
+[77.664s] [ 91%] [32m[1mLinking CXX executable cartographer.sensor.internal.trajectory_collator_test[0m
+[78.031s] [ 91%] Built target cartographer.sensor.internal.trajectory_collator_test
+[78.087s] [ 91%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test[0m
+[78.516s] [ 91%] Built target cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test
+[78.650s] [ 91%] [32m[1mLinking CXX executable cartographer.mapping.probability_values_test[0m
+[79.115s] [ 92%] Built target cartographer.mapping.probability_values_test
+[79.263s] [ 93%] [32m[1mLinking CXX executable cartographer.mapping.map_builder_test[0m
+[80.312s] [ 93%] Built target cartographer.mapping.map_builder_test
+[80.422s] [ 93%] [32m[1mLinking CXX executable cartographer.sensor.map_by_time_test[0m
+[80.809s] [ 93%] Built target cartographer.sensor.map_by_time_test
+[80.997s] [ 93%] [32m[1mLinking CXX executable cartographer.sensor.internal.ordered_multi_queue_test[0m
+[81.491s] [ 94%] Built target cartographer.sensor.internal.ordered_multi_queue_test
+[81.626s] [ 94%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test[0m
+[82.057s] [ 94%] Built target cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test
+[82.190s] [ 95%] [32m[1mLinking CXX executable cartographer.sensor.compressed_point_cloud_test[0m
+[82.677s] [ 95%] Built target cartographer.sensor.compressed_point_cloud_test
+[82.795s] [ 95%] [32m[1mLinking CXX executable cartographer.mapping.internal.connected_components_test[0m
+[83.244s] [ 96%] Built target cartographer.mapping.internal.connected_components_test
+[83.414s] [ 96%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test[0m
+[84.046s] [ 96%] Built target cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test
+[84.129s] [ 96%] [32m[1mLinking CXX executable cartographer.mapping.internal.constraints.constraint_builder_2d_test[0m
+[85.069s] [ 96%] Built target cartographer.mapping.internal.constraints.constraint_builder_2d_test
+[85.216s] [ 96%] [32m[1mLinking CXX executable cartographer.transform.rigid_transform_test[0m
+[85.663s] [ 97%] Built target cartographer.transform.rigid_transform_test
+[85.795s] [ 97%] [32m[1mLinking CXX executable cartographer.common.task_test[0m
+[86.174s] [ 97%] Built target cartographer.common.task_test
+[86.280s] [ 97%] [32m[1mLinking CXX executable cartographer.mapping.imu_tracker_test[0m
+[86.651s] [ 97%] Built target cartographer.mapping.imu_tracker_test
+[86.798s] [ 97%] [32m[1mLinking CXX executable cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test[0m
+[87.222s] [ 97%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test
+[87.342s] [ 97%] [32m[1mLinking CXX executable cartographer.sensor.internal.collator_test[0m
+[87.731s] [ 97%] Built target cartographer.sensor.internal.collator_test
+[87.817s] [ 97%] [32m[1mLinking CXX executable cartographer.mapping.2d.xy_index_test[0m
+[88.143s] [ 97%] Built target cartographer.mapping.2d.xy_index_test
+[88.263s] [ 98%] [32m[1mLinking CXX executable cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test[0m
+[88.711s] [ 98%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test
+[88.865s] [ 98%] [32m[1mLinking CXX executable cartographer.mapping.internal.trajectory_connectivity_state_test[0m
+[89.299s] [100%] Built target cartographer.mapping.internal.trajectory_connectivity_state_test
+[89.442s] [100%] [32m[1mLinking CXX executable cartographer.mapping.pose_extrapolator_test[0m
+[89.854s] [100%] Built target cartographer.mapping.pose_extrapolator_test
+[89.906s] Invoked command in '/home/ubuntu/Desktop/cartographer_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/cartographer_ws/install/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/imu:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ubuntu/Desktop/cartographer_ws/build/cartographer -- -j2 -l2
+[93.883s] Invoking command in '/home/ubuntu/Desktop/cartographer_ws/build/cartographer': CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/cartographer_ws/install/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/imu:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ubuntu/Desktop/cartographer_ws/build/cartographer
+[93.928s] -- Install configuration: "Release"
+[93.930s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer/package.xml
+[93.931s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer//configuration_files
+[93.931s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer//configuration_files/trajectory_builder_3d.lua
+[93.932s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer//configuration_files/map_builder.lua
+[93.935s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer//configuration_files/pose_graph.lua
+[93.935s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer//configuration_files/trajectory_builder.lua
+[93.935s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer//configuration_files/trajectory_builder_2d.lua
+[93.935s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer//configuration_files/map_builder_server.lua
+[93.935s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer//cmake
+[93.936s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer//cmake/functions.cmake
+[93.936s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer//cmake/modules
+[93.936s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer//cmake/modules/FindGMock.cmake
+[93.936s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer//cmake/modules/FindLuaGoogle.cmake
+[93.936s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer//cmake/modules/FindSphinx.cmake
+[93.943s] -- Installing: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/bin/cartographer_autogenerate_ground_truth
+[93.946s] -- Installing: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/bin/cartographer_compute_relations_metrics
+[93.957s] -- Installing: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/bin/cartographer_migrate_serialization_format
+[93.962s] -- Installing: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/lib/libcartographer.a
+[93.995s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/blocking_queue.h
+[93.995s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/ceres_solver_options.h
+[93.995s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/configuration_file_resolver.h
+[93.995s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/fixed_ratio_sampler.h
+[93.996s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/histogram.h
+[93.997s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/lockless_queue.h
+[93.998s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/lua.h
+[93.999s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/lua_parameter_dictionary.h
+[93.999s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/make_unique.h
+[93.999s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/math.h
+[93.999s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/mutex.h
+[93.999s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/optional.h
+[94.007s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/port.h
+[94.007s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/rate_timer.h
+[94.008s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/task.h
+[94.008s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/thread_pool.h
+[94.008s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/time.h
+[94.008s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/ground_truth/relations_text_file.h
+[94.011s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/color.h
+[94.014s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/coloring_points_processor.h
+[94.016s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/counting_points_processor.h
+[94.016s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/draw_trajectories.h
+[94.016s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/file_writer.h
+[94.016s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/fixed_ratio_sampling_points_processor.h
+[94.017s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/frame_id_filtering_points_processor.h
+[94.017s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/hybrid_grid_points_processor.h
+[94.017s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/image.h
+[94.017s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/intensity_to_color_points_processor.h
+[94.017s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/min_max_range_filtering_points_processor.h
+[94.017s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/null_points_processor.h
+[94.018s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/outlier_removing_points_processor.h
+[94.018s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/pcd_writing_points_processor.h
+[94.018s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/ply_writing_points_processor.h
+[94.018s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/points_batch.h
+[94.018s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/points_processor.h
+[94.018s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/points_processor_pipeline_builder.h
+[94.019s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/probability_grid_points_processor.h
+[94.019s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/proto_stream.h
+[94.019s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/proto_stream_deserializer.h
+[94.019s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/proto_stream_interface.h
+[94.019s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/serialization_format_migration.h
+[94.024s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/submap_painter.h
+[94.030s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/xray_points_processor.h
+[94.031s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/xyz_writing_points_processor.h
+[94.031s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/2d/grid_2d.h
+[94.031s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/2d/map_limits.h
+[94.032s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/2d/probability_grid.h
+[94.032s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/2d/probability_grid_range_data_inserter_2d.h
+[94.039s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/2d/submap_2d.h
+[94.039s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/2d/xy_index.h
+[94.039s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/3d/hybrid_grid.h
+[94.040s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/3d/range_data_inserter_3d.h
+[94.040s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/3d/submap_3d.h
+[94.040s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/detect_floors.h
+[94.040s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/grid_interface.h
+[94.040s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/id.h
+[94.040s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/imu_tracker.h
+[94.041s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/local_slam_result_data.h
+[94.041s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/map_builder.h
+[94.041s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/map_builder_interface.h
+[94.041s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/pose_extrapolator.h
+[94.041s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/pose_graph.h
+[94.042s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/pose_graph_interface.h
+[94.042s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/pose_graph_trimmer.h
+[94.042s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/probability_values.h
+[94.049s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/range_data_inserter_interface.h
+[94.051s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/submaps.h
+[94.051s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/trajectory_builder_interface.h
+[94.051s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/trajectory_node.h
+[94.051s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/metrics/counter.h
+[94.052s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/metrics/family_factory.h
+[94.052s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/metrics/gauge.h
+[94.052s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/metrics/histogram.h
+[94.052s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/metrics/register.h
+[94.052s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/sensor/collator_interface.h
+[94.052s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/sensor/compressed_point_cloud.h
+[94.053s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/sensor/data.h
+[94.053s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/sensor/fixed_frame_pose_data.h
+[94.053s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/sensor/imu_data.h
+[94.053s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/sensor/landmark_data.h
+[94.053s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/sensor/map_by_time.h
+[94.053s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/sensor/odometry_data.h
+[94.054s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/sensor/point_cloud.h
+[94.054s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/sensor/range_data.h
+[94.054s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/sensor/timed_point_cloud_data.h
+[94.054s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/transform/rigid_transform.h
+[94.054s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/transform/timestamped_transform.h
+[94.054s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/transform/transform.h
+[94.054s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/transform/transform_interpolation_buffer.h
+[94.055s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/lua_parameter_dictionary_test_helpers.h
+[94.055s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/io/fake_file_writer.h
+[94.055s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/transform/rigid_transform_test_helpers.h
+[94.055s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/common/proto/ceres_solver_options.pb.h
+[94.055s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/ground_truth/proto/relations.pb.h
+[94.055s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/2d/cell_limits.pb.h
+[94.056s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/2d/grid_2d.pb.h
+[94.056s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/2d/grid_2d_options.pb.h
+[94.056s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/2d/local_trajectory_builder_options_2d.pb.h
+[94.056s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/2d/map_limits.pb.h
+[94.056s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/2d/probability_grid.pb.h
+[94.056s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/2d/probability_grid_range_data_inserter_options_2d.pb.h
+[94.057s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/2d/submaps_options_2d.pb.h
+[94.057s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/3d/hybrid_grid.pb.h
+[94.057s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/3d/local_trajectory_builder_options_3d.pb.h
+[94.067s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/3d/range_data_inserter_options_3d.pb.h
+[94.067s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/3d/submaps_options_3d.pb.h
+[94.067s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/connected_components.pb.h
+[94.068s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/internal/legacy_serialized_data.pb.h
+[94.068s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/map_builder_options.pb.h
+[94.068s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/motion_filter_options.pb.h
+[94.068s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph.pb.h
+[94.068s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.h
+[94.069s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.h
+[94.069s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph_options.pb.h
+[94.069s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/range_data_inserter_options.pb.h
+[94.070s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.h
+[94.070s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.h
+[94.071s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.h
+[94.076s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.h
+[94.076s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.h
+[94.076s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/serialization.pb.h
+[94.077s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/submap.pb.h
+[94.077s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/submap_visualization.pb.h
+[94.077s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/trajectory.pb.h
+[94.077s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/trajectory_builder_options.pb.h
+[94.079s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/mapping/proto/trajectory_node_data.pb.h
+[94.079s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.h
+[94.079s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/sensor/proto/sensor.pb.h
+[94.079s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/include/cartographer/transform/proto/transform.pb.h
+[94.080s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer/cmake/CartographerTargets.cmake
+[94.080s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer/cmake/CartographerTargets-release.cmake
+[94.080s] -- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/cartographer/share/cartographer/cartographer-config.cmake
+[94.081s] Invoked command in '/home/ubuntu/Desktop/cartographer_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/cartographer_ws/install/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/imu:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ubuntu/Desktop/cartographer_ws/build/cartographer
