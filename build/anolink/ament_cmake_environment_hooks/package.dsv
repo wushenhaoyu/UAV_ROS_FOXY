@@ -1,0 +1,4 @@
+source;share/anolink/local_setup.bash
+source;share/anolink/local_setup.dsv
+source;share/anolink/local_setup.sh
+source;share/anolink/local_setup.zsh

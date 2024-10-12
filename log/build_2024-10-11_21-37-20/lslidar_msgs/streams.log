@@ -1,0 +1,21 @@
+[0.026s] Invoking command in '/home/jetson/Desktop/cartographer_ws/build/lslidar_msgs': /usr/bin/cmake /home/jetson/Desktop/cartographer_ws/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs
+[0.083s] CMake Error at CMakeLists.txt:19 (find_package):
+[0.083s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.084s]   has asked CMake to find a package configuration file provided by
+[0.084s]   "ament_cmake", but CMake did not find one.
+[0.084s] 
+[0.084s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.084s]   any of the following names:
+[0.084s] 
+[0.085s]     ament_cmakeConfig.cmake
+[0.085s]     ament_cmake-config.cmake
+[0.085s] 
+[0.085s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.085s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.085s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.085s]   has been installed.
+[0.086s] 
+[0.086s] 
+[0.086s] -- Configuring incomplete, errors occurred!
+[0.086s] See also "/home/jetson/Desktop/cartographer_ws/build/lslidar_msgs/CMakeFiles/CMakeOutput.log".
+[0.088s] Invoked command in '/home/jetson/Desktop/cartographer_ws/build/lslidar_msgs' returned '1': /usr/bin/cmake /home/jetson/Desktop/cartographer_ws/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs

@@ -1,0 +1,47 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found serial: 1.2.1 (/usr/local/share/serial/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/ubuntu/Desktop/cartographer_ws/src/anolink/AnoPTv8;/home/ubuntu/Desktop/cartographer_ws/src/anolink/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/Desktop/cartographer_ws/build/anolink
+[35m[1mScanning dependencies of target anolink[0m
+[  9%] [32mBuilding CXX object CMakeFiles/anolink.dir/src/anolink.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/anolink.dir/src/anoSerial.cpp.o[0m
+In file included from [01m[K/home/ubuntu/Desktop/cartographer_ws/src/anolink/src/anolink.cpp:1[m[K:
+[01m[K/home/ubuntu/Desktop/cartographer_ws/src/anolink/include/anolink.hpp:58:22:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in ‘[01m[Kclass tf2_ros::Buffer[m[K’ does not name a type
+   58 |     tf2_ros::Buffer::[01;31m[KSharedPtr[m[K m_tfBuf;
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/Desktop/cartographer_ws/src/anolink/src/anolink.cpp:[m[K In constructor ‘[01m[KAnoLink::AnoLink(std::string)[m[K’:
+[01m[K/home/ubuntu/Desktop/cartographer_ws/src/anolink/src/anolink.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_tfBuf[m[K’ was not declared in this scope
+   33 |     [01;31m[Km_tfBuf[m[K = std::make_unique<tf2_ros::Buffer>(this->get_clock());
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/Desktop/cartographer_ws/src/anolink/src/anolink.cpp:[m[K In member function ‘[01m[Kvoid AnoLink::tfListenerCheck()[m[K’:
+[01m[K/home/ubuntu/Desktop/cartographer_ws/src/anolink/src/anolink.cpp:68:15:[m[K [01;31m[Kerror: [m[K‘[01m[Km_tfBuf[m[K’ was not declared in this scope
+   68 |         _tf = [01;31m[Km_tfBuf[m[K->lookupTransform("toFrameRel", "fromFrameRel", tf2::TimePointZero);
+      |               [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/Desktop/cartographer_ws/src/anolink/src/anoSerial.cpp:9[m[K:
+[01m[K/home/ubuntu/Desktop/cartographer_ws/src/anolink/include/anolink.hpp:58:22:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in ‘[01m[Kclass tf2_ros::Buffer[m[K’ does not name a type
+   58 |     tf2_ros::Buffer::[01;31m[KSharedPtr[m[K m_tfBuf;
+      |                      [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/anolink.dir/build.make:76: CMakeFiles/anolink.dir/src/anoSerial.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/anolink.dir/build.make:63: CMakeFiles/anolink.dir/src/anolink.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/anolink.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

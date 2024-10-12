@@ -1,0 +1,35 @@
+[0.023s] Invoking command in '/home/jetson/Desktop/cartographer_ws/build/lslidar_msgs': /usr/bin/cmake /home/jetson/Desktop/cartographer_ws/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs
+[0.221s] -- The C compiler identification is GNU 9.4.0
+[0.368s] -- The CXX compiler identification is GNU 9.4.0
+[0.384s] -- Check for working C compiler: /usr/bin/cc
+[0.525s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.529s] -- Detecting C compiler ABI info
+[0.674s] -- Detecting C compiler ABI info - done
+[0.696s] -- Detecting C compile features
+[0.698s] -- Detecting C compile features - done
+[0.703s] -- Check for working CXX compiler: /usr/bin/c++
+[0.858s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.860s] -- Detecting CXX compiler ABI info
+[1.020s] -- Detecting CXX compiler ABI info - done
+[1.041s] -- Detecting CXX compile features
+[1.041s] -- Detecting CXX compile features - done
+[1.064s] CMake Error at CMakeLists.txt:19 (find_package):
+[1.064s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.064s]   has asked CMake to find a package configuration file provided by
+[1.064s]   "ament_cmake", but CMake did not find one.
+[1.065s] 
+[1.065s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.065s]   any of the following names:
+[1.065s] 
+[1.065s]     ament_cmakeConfig.cmake
+[1.065s]     ament_cmake-config.cmake
+[1.065s] 
+[1.066s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.066s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.066s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.066s]   has been installed.
+[1.066s] 
+[1.066s] 
+[1.066s] -- Configuring incomplete, errors occurred!
+[1.066s] See also "/home/jetson/Desktop/cartographer_ws/build/lslidar_msgs/CMakeFiles/CMakeOutput.log".
+[1.072s] Invoked command in '/home/jetson/Desktop/cartographer_ws/build/lslidar_msgs' returned '1': /usr/bin/cmake /home/jetson/Desktop/cartographer_ws/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs

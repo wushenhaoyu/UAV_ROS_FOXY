@@ -1,0 +1,1 @@
+/home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver/ament_cmake_environment_hooks/local_setup.sh

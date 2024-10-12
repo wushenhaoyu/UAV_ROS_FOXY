@@ -1,0 +1,58 @@
+[0.052s] Invoking command in '/home/jetson/Desktop/cartographer_ws/build/my_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/Desktop/cartographer_ws/my_cartographer -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/cartographer_ws/install/my_cartographer
+[0.306s] -- The C compiler identification is GNU 9.4.0
+[0.489s] -- The CXX compiler identification is GNU 9.4.0
+[0.502s] -- Check for working C compiler: /usr/bin/cc
+[0.673s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.675s] -- Detecting C compiler ABI info
+[0.843s] -- Detecting C compiler ABI info - done
+[0.855s] -- Detecting C compile features
+[0.856s] -- Detecting C compile features - done
+[0.863s] -- Check for working CXX compiler: /usr/bin/c++
+[1.053s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.059s] -- Detecting CXX compiler ABI info
+[1.263s] -- Detecting CXX compiler ABI info - done
+[1.282s] -- Detecting CXX compile features
+[1.283s] -- Detecting CXX compile features - done
+[1.288s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.348s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.348s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.799s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.977s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.981s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.982s] -- Added test 'lint_cmake' to check CMake code style
+[1.983s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.986s] -- Added test 'xmllint' to check XML markup files
+[1.993s] -- Configuring done
+[1.999s] -- Generating done
+[2.001s] -- Build files have been written to: /home/jetson/Desktop/cartographer_ws/build/my_cartographer
+[2.026s] Invoked command in '/home/jetson/Desktop/cartographer_ws/build/my_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/Desktop/cartographer_ws/my_cartographer -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/cartographer_ws/install/my_cartographer
+[2.032s] Invoking command in '/home/jetson/Desktop/cartographer_ws/build/my_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/Desktop/cartographer_ws/build/my_cartographer -- -j6 -l6
+[2.136s] Invoked command in '/home/jetson/Desktop/cartographer_ws/build/my_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/Desktop/cartographer_ws/build/my_cartographer -- -j6 -l6
+[2.182s] Invoking command in '/home/jetson/Desktop/cartographer_ws/build/my_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/Desktop/cartographer_ws/build/my_cartographer
+[2.206s] -- Install configuration: ""
+[2.207s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/ament_index/resource_index/package_run_dependencies/my_cartographer
+[2.207s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/ament_index/resource_index/parent_prefix_path/my_cartographer
+[2.207s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/environment/ament_prefix_path.sh
+[2.207s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/environment/ament_prefix_path.dsv
+[2.208s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/environment/path.sh
+[2.208s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/environment/path.dsv
+[2.208s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/local_setup.bash
+[2.208s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/local_setup.sh
+[2.209s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/local_setup.zsh
+[2.209s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/local_setup.dsv
+[2.209s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/package.dsv
+[2.209s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/ament_index/resource_index/packages/my_cartographer
+[2.210s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/cmake/my_cartographerConfig.cmake
+[2.210s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/cmake/my_cartographerConfig-version.cmake
+[2.210s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/package.xml
+[2.211s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/config
+[2.211s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/config/uav.urdf
+[2.211s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/launch
+[2.211s] -- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/launch/run_lanuch.py
+[2.212s] CMake Error at cmake_install.cmake:100 (file):
+[2.212s]   file INSTALL cannot find
+[2.212s]   "/home/jetson/Desktop/cartographer_ws/my_cartographer/rviz": No such file
+[2.212s]   or directory.
+[2.212s] 
+[2.213s] 
+[2.217s] Invoked command in '/home/jetson/Desktop/cartographer_ws/build/my_cartographer' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/Desktop/cartographer_ws/build/my_cartographer

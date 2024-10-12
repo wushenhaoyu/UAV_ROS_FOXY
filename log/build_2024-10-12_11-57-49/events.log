@@ -1,0 +1,898 @@
+[0.000000] (-) TimerEvent: {}
+[0.002059] (-) JobUnselected: {'identifier': 'cartographer'}
+[0.002227] (-) JobUnselected: {'identifier': 'cartographer_ros'}
+[0.002369] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.003071] (-) JobUnselected: {'identifier': 'my_cartographer'}
+[0.003294] (lslidar_msgs) JobQueued: {'identifier': 'lslidar_msgs', 'dependencies': OrderedDict()}
+[0.003440] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict([('lslidar_msgs', '/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs')])}
+[0.003585] (lslidar_msgs) JobStarted: {'identifier': 'lslidar_msgs'}
+[0.066018] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'cmake'}
+[0.067380] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'build'}
+[0.067867] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'ubuntu'), ('GIO_MODULE_DIR', '/home/ubuntu/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1441'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/172/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/ubuntu/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/172/usr/share/code/code'), ('MANAGERPID', '1152'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2788'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/cartographer_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:53421'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/Desktop/cartographer_ws/install/cartographer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ubuntu/Desktop/cartographer_ws/install/cartographer/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-virtual-machine:@/tmp/.ICE-unix/1476,unix/ubuntu-virtual-machine:/tmp/.ICE-unix/1476'), ('GTK_EXE_PREFIX', '/snap/code/172/usr'), ('INVOCATION_ID', '1b24003da64b47c6aaf4bf86cc0b367b'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/172/usr/lib/locale'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b0561e5d5e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ubuntu/snap/code/172/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/ubuntu/snap/code/172/.local/share:/home/ubuntu/snap/code/172:/snap/code/172/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer:/opt/ros/foxy')]), 'shell': False}
+[0.100184] (-) TimerEvent: {}
+[0.164259] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.201128] (-) TimerEvent: {}
+[0.252313] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.253703] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.301378] (-) TimerEvent: {}
+[0.404223] (-) TimerEvent: {}
+[0.506994] (-) TimerEvent: {}
+[0.608577] (-) TimerEvent: {}
+[0.710012] (-) TimerEvent: {}
+[0.786127] (lslidar_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.810291] (-) TimerEvent: {}
+[0.840882] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.846937] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.910926] (-) TimerEvent: {}
+[1.012374] (-) TimerEvent: {}
+[1.113494] (-) TimerEvent: {}
+[1.196668] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.218177] (-) TimerEvent: {}
+[1.318871] (lslidar_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.319345] (-) TimerEvent: {}
+[1.420114] (-) TimerEvent: {}
+[1.524405] (-) TimerEvent: {}
+[1.625662] (-) TimerEvent: {}
+[1.629948] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.666218] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.725895] (-) TimerEvent: {}
+[1.827938] (-) TimerEvent: {}
+[1.928558] (-) TimerEvent: {}
+[1.929417] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.034206] (-) TimerEvent: {}
+[2.134856] (-) TimerEvent: {}
+[2.235429] (-) TimerEvent: {}
+[2.253530] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.338658] (-) TimerEvent: {}
+[2.439339] (-) TimerEvent: {}
+[2.541009] (-) TimerEvent: {}
+[2.641607] (-) TimerEvent: {}
+[2.742297] (-) TimerEvent: {}
+[2.782459] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.842820] (-) TimerEvent: {}
+[2.945941] (-) TimerEvent: {}
+[2.985556] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.046348] (-) TimerEvent: {}
+[3.060751] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.061917] (lslidar_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.135132] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.135554] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.135804] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.153356] (-) TimerEvent: {}
+[3.261611] (-) TimerEvent: {}
+[3.262205] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.262580] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.262771] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.280155] (lslidar_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.361995] (-) TimerEvent: {}
+[3.465781] (lslidar_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.466286] (-) TimerEvent: {}
+[3.481051] (lslidar_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/Desktop/cartographer_ws/build/lslidar_msgs\n'}
+[3.566604] (-) TimerEvent: {}
+[3.619831] (lslidar_msgs) StdoutLine: {'line': b'[  1%] Built target lslidar_msgs__cpp\n'}
+[3.630804] (lslidar_msgs) StdoutLine: {'line': b'[ 12%] Built target lslidar_msgs__rosidl_generator_c\n'}
+[3.666783] (-) TimerEvent: {}
+[3.730264] (lslidar_msgs) StdoutLine: {'line': b'[ 31%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.730796] (lslidar_msgs) StdoutLine: {'line': b'[ 34%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.731047] (lslidar_msgs) StdoutLine: {'line': b'[ 46%] Built target lslidar_msgs__rosidl_typesupport_cpp\n'}
+[3.756629] (lslidar_msgs) StdoutLine: {'line': b'[ 57%] Built target lslidar_msgs__rosidl_typesupport_c\n'}
+[3.767040] (-) TimerEvent: {}
+[3.834592] (lslidar_msgs) StdoutLine: {'line': b'[ 68%] Built target lslidar_msgs__rosidl_typesupport_introspection_c\n'}
+[3.836014] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.867228] (-) TimerEvent: {}
+[3.888641] (lslidar_msgs) StderrLine: {'line': b"make[2]: Warning: File '/home/ubuntu/Desktop/cartographer_ws/src/lslidar_msgs/msg/LslidarDifop.msg' has modification time 20961 s in the future\n"}
+[3.890218] (lslidar_msgs) StderrLine: {'line': b'make[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.925024] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs\n'}
+[3.968111] (-) TimerEvent: {}
+[4.025952] (lslidar_msgs) StdoutLine: {'line': b'[ 80%] Built target lslidar_msgs__py\n'}
+[4.068451] (-) TimerEvent: {}
+[4.144452] (lslidar_msgs) StdoutLine: {'line': b'[ 90%] Built target lslidar_msgs__python\n'}
+[4.170250] (-) TimerEvent: {}
+[4.245533] (lslidar_msgs) StdoutLine: {'line': b'[ 93%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.254404] (lslidar_msgs) StdoutLine: {'line': b'[ 96%] Built target lslidar_msgs__rosidl_typesupport_c__pyext\n'}
+[4.255370] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.268934] (-) TimerEvent: {}
+[4.300831] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[4.369857] (-) TimerEvent: {}
+[4.471743] (-) TimerEvent: {}
+[4.574086] (-) TimerEvent: {}
+[4.677016] (-) TimerEvent: {}
+[4.778027] (-) TimerEvent: {}
+[4.879398] (-) TimerEvent: {}
+[4.980122] (-) TimerEvent: {}
+[5.021650] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'install'}
+[5.069413] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_msgs'], 'cwd': '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'ubuntu'), ('GIO_MODULE_DIR', '/home/ubuntu/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1441'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/172/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/ubuntu/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/172/usr/share/code/code'), ('MANAGERPID', '1152'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2788'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/cartographer_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:53421'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/Desktop/cartographer_ws/install/cartographer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ubuntu/Desktop/cartographer_ws/install/cartographer/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-virtual-machine:@/tmp/.ICE-unix/1476,unix/ubuntu-virtual-machine:/tmp/.ICE-unix/1476'), ('GTK_EXE_PREFIX', '/snap/code/172/usr'), ('INVOCATION_ID', '1b24003da64b47c6aaf4bf86cc0b367b'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/172/usr/lib/locale'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b0561e5d5e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ubuntu/snap/code/172/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/ubuntu/snap/code/172/.local/share:/home/ubuntu/snap/code/172:/snap/code/172/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer:/opt/ros/foxy')]), 'shell': False}
+[5.080399] (-) TimerEvent: {}
+[5.098043] (lslidar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.099906] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs\n'}
+[5.100192] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs\n'}
+[5.100369] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg\n'}
+[5.100562] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail\n'}
+[5.100832] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__functions.c\n'}
+[5.100966] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__functions.h\n'}
+[5.101170] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__functions.c\n'}
+[5.101412] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__functions.c\n'}
+[5.102097] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__type_support.h\n'}
+[5.102373] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__functions.h\n'}
+[5.102587] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__struct.h\n'}
+[5.102745] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__functions.h\n'}
+[5.102919] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__functions.h\n'}
+[5.103081] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__functions.c\n'}
+[5.103309] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__functions.h\n'}
+[5.103472] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__type_support.h\n'}
+[5.103629] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__struct.h\n'}
+[5.103798] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__type_support.h\n'}
+[5.104064] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__struct.h\n'}
+[5.104468] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__type_support.h\n'}
+[5.104881] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h\n'}
+[5.105119] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__functions.c\n'}
+[5.105278] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__struct.h\n'}
+[5.105433] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__struct.h\n'}
+[5.105589] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.105819] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_sweep.h\n'}
+[5.105979] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_packet.h\n'}
+[5.106140] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_scan.h\n'}
+[5.106296] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_difop.h\n'}
+[5.106453] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_point.h\n'}
+[5.106609] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh\n'}
+[5.107630] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv\n'}
+[5.108074] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so\n'}
+[5.108256] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs\n'}
+[5.108419] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg\n'}
+[5.108580] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail\n'}
+[5.108783] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h\n'}
+[5.108984] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h\n'}
+[5.109152] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h\n'}
+[5.109310] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h\n'}
+[5.109489] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h\n'}
+[5.109820] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.109998] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.110157] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs\n'}
+[5.110331] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg\n'}
+[5.110569] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail\n'}
+[5.110734] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/dds_fastrtps\n'}
+[5.110892] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.111054] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.111434] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.111860] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.112055] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.112372] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.112549] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.112744] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs\n'}
+[5.113004] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg\n'}
+[5.113173] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail\n'}
+[5.113336] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__type_support.c\n'}
+[5.113494] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c\n'}
+[5.113657] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h\n'}
+[5.113814] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h\n'}
+[5.114051] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__type_support.c\n'}
+[5.114192] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__type_support.c\n'}
+[5.114397] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h\n'}
+[5.114908] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h\n'}
+[5.115521] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__type_support.c\n'}
+[5.115924] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h\n'}
+[5.116433] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.116631] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.117131] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so\n'}
+[5.117590] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs\n'}
+[5.117852] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg\n'}
+[5.118161] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail\n'}
+[5.118456] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp\n'}
+[5.118890] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp\n'}
+[5.119234] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp\n'}
+[5.119400] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp\n'}
+[5.119563] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp\n'}
+[5.119724] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp\n'}
+[5.119884] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp\n'}
+[5.120091] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp\n'}
+[5.120251] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp\n'}
+[5.120408] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__traits.hpp\n'}
+[5.120566] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__builder.hpp\n'}
+[5.120769] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp\n'}
+[5.120931] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp\n'}
+[5.121090] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp\n'}
+[5.121246] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp\n'}
+[5.121458] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp\n'}
+[5.121621] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp\n'}
+[5.121787] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__struct.hpp\n'}
+[5.121945] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp\n'}
+[5.122172] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp\n'}
+[5.122391] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_sweep.hpp\n'}
+[5.122554] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_packet.hpp\n'}
+[5.122712] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.122944] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_scan.hpp\n'}
+[5.123104] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_point.hpp\n'}
+[5.123260] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_difop.hpp\n'}
+[5.123418] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs\n'}
+[5.123577] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg\n'}
+[5.123732] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail\n'}
+[5.123890] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.124049] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.124205] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp\n'}
+[5.124375] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.124533] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp\n'}
+[5.124759] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp\n'}
+[5.124928] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp\n'}
+[5.125096] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.125259] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp\n'}
+[5.125420] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.125584] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.125747] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so\n'}
+[5.125904] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh\n'}
+[5.126071] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv\n'}
+[5.126237] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/__init__.py\n'}
+[5.180812] (-) TimerEvent: {}
+[5.226656] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/__init__.py'...\n"}
+[5.232005] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg\n'}
+[5.232534] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_scan_s.c\n'}
+[5.233422] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_sweep.py\n'}
+[5.233715] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_packet_s.c\n'}
+[5.234136] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/__init__.py\n'}
+[5.234307] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_point_s.c\n'}
+[5.234466] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_packet.py\n'}
+[5.234624] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_difop.py\n'}
+[5.234781] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_point.py\n'}
+[5.234938] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_sweep_s.c\n'}
+[5.235122] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_scan.py\n'}
+[5.235350] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_difop_s.c\n'}
+[5.235509] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.237603] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.239429] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.241073] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__python.so\n'}
+[5.241931] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl\n'}
+[5.242307] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl\n'}
+[5.242482] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl\n'}
+[5.242623] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl\n'}
+[5.242885] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl\n'}
+[5.243197] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg\n'}
+[5.243456] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg\n'}
+[5.244033] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg\n'}
+[5.244231] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg\n'}
+[5.244401] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg\n'}
+[5.244659] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs\n'}
+[5.245038] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs\n'}
+[5.245233] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh\n'}
+[5.245408] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv\n'}
+[5.245575] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh\n'}
+[5.245901] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv\n'}
+[5.246217] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash\n'}
+[5.246498] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh\n'}
+[5.246666] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh\n'}
+[5.246890] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv\n'}
+[5.247221] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv\n'}
+[5.247914] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs\n'}
+[5.248350] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_generator_cExport.cmake\n'}
+[5.248670] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.249772] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.250188] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.250857] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.251269] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.252060] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.252537] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.252856] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.253780] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.254208] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.254492] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.254743] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.255004] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.255315] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.255572] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.255795] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.255957] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.256119] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake\n'}
+[5.256281] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake\n'}
+[5.256442] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml\n'}
+[5.261838] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[5.281392] (-) TimerEvent: {}
+[5.382246] (-) TimerEvent: {}
+[5.483204] (-) TimerEvent: {}
+[5.583924] (-) TimerEvent: {}
+[5.686489] (-) TimerEvent: {}
+[5.787339] (-) TimerEvent: {}
+[5.888261] (-) TimerEvent: {}
+[5.989064] (-) TimerEvent: {}
+[6.090442] (-) TimerEvent: {}
+[6.114503] (lslidar_msgs) JobEnded: {'identifier': 'lslidar_msgs', 'rc': 0}
+[6.115907] (lslidar_driver) JobStarted: {'identifier': 'lslidar_driver'}
+[6.164867] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'cmake'}
+[6.168462] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'build'}
+[6.169700] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'ubuntu'), ('GIO_MODULE_DIR', '/home/ubuntu/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1441'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/172/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/ubuntu/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/172/usr/share/code/code'), ('MANAGERPID', '1152'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2788'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/cartographer_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:53421'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/Desktop/cartographer_ws/install/cartographer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ubuntu/Desktop/cartographer_ws/install/cartographer/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-virtual-machine:@/tmp/.ICE-unix/1476,unix/ubuntu-virtual-machine:/tmp/.ICE-unix/1476'), ('GTK_EXE_PREFIX', '/snap/code/172/usr'), ('INVOCATION_ID', '1b24003da64b47c6aaf4bf86cc0b367b'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/172/usr/lib/locale'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b0561e5d5e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ubuntu/snap/code/172/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/ubuntu/snap/code/172/.local/share:/home/ubuntu/snap/code/172:/snap/code/172/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer:/opt/ros/foxy')]), 'shell': False}
+[6.191253] (-) TimerEvent: {}
+[6.299203] (-) TimerEvent: {}
+[6.307288] (lslidar_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[6.307999] (lslidar_driver) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[6.371863] (lslidar_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.399769] (-) TimerEvent: {}
+[6.501119] (-) TimerEvent: {}
+[6.601791] (-) TimerEvent: {}
+[6.702412] (-) TimerEvent: {}
+[6.803742] (-) TimerEvent: {}
+[6.906210] (-) TimerEvent: {}
+[6.983173] (lslidar_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.991494] (lslidar_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[7.014443] (-) TimerEvent: {}
+[7.115148] (-) TimerEvent: {}
+[7.217535] (-) TimerEvent: {}
+[7.318075] (-) TimerEvent: {}
+[7.333021] (lslidar_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.418347] (-) TimerEvent: {}
+[7.467504] (lslidar_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[7.471188] (lslidar_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.518573] (-) TimerEvent: {}
+[7.619376] (-) TimerEvent: {}
+[7.720062] (-) TimerEvent: {}
+[7.822672] (-) TimerEvent: {}
+[7.909465] (lslidar_driver) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[7.923012] (-) TimerEvent: {}
+[7.942634] (lslidar_driver) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[8.023206] (-) TimerEvent: {}
+[8.123959] (-) TimerEvent: {}
+[8.167137] (lslidar_driver) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[8.167563] (lslidar_driver) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[8.167756] (lslidar_driver) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[8.168045] (lslidar_driver) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[8.168238] (lslidar_driver) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[8.168413] (lslidar_driver) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[8.168581] (lslidar_driver) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[8.168888] (lslidar_driver) StdoutLine: {'line': b'but not all the files it references.\n'}
+[8.169174] (lslidar_driver) StdoutLine: {'line': b'\n'}
+[8.169810] (lslidar_driver) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[8.170034] (lslidar_driver) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[8.170221] (lslidar_driver) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[8.170395] (lslidar_driver) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[8.170563] (lslidar_driver) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[8.170726] (lslidar_driver) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[8.170910] (lslidar_driver) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[8.171070] (lslidar_driver) StdoutLine: {'line': b'but not all the files it references.\n'}
+[8.180590] (lslidar_driver) StdoutLine: {'line': b'\n'}
+[8.180908] (lslidar_driver) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[8.181357] (lslidar_driver) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[8.181713] (lslidar_driver) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[8.181796] (lslidar_driver) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[8.182138] (lslidar_driver) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[8.182426] (lslidar_driver) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[8.182749] (lslidar_driver) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[8.182825] (lslidar_driver) StdoutLine: {'line': b'but not all the files it references.\n'}
+[8.182910] (lslidar_driver) StdoutLine: {'line': b'\n'}
+[8.183120] (lslidar_driver) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[8.183545] (lslidar_driver) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[8.183776] (lslidar_driver) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[8.183903] (lslidar_driver) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[8.183985] (lslidar_driver) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[8.184129] (lslidar_driver) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[8.184394] (lslidar_driver) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[8.185948] (lslidar_driver) StdoutLine: {'line': b'but not all the files it references.\n'}
+[8.186206] (lslidar_driver) StdoutLine: {'line': b'\n'}
+[8.227098] (-) TimerEvent: {}
+[8.229064] (lslidar_driver) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[8.243039] (lslidar_driver) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[8.253061] (lslidar_driver) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[8.253463] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[8.254080] (lslidar_driver) StderrLine: {'line': b'** WARNING ** io features related to openni will be disabled\n'}
+[8.269271] (lslidar_driver) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[8.282576] (lslidar_driver) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[8.292642] (lslidar_driver) StderrLine: {'line': b'** WARNING ** io features related to openni2 will be disabled\n'}
+[8.293325] (lslidar_driver) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[8.293442] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[8.293530] (lslidar_driver) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[8.293597] (lslidar_driver) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[8.332970] (lslidar_driver) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[8.333522] (-) TimerEvent: {}
+[8.333776] (lslidar_driver) StdoutLine: {'line': b'-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) \n'}
+[8.349170] (lslidar_driver) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[8.364479] (lslidar_driver) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[8.375761] (lslidar_driver) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[8.377928] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[8.378861] (lslidar_driver) StderrLine: {'line': b'** WARNING ** visualization features related to openni will be disabled\n'}
+[8.393953] (lslidar_driver) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[8.407160] (lslidar_driver) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[8.416633] (lslidar_driver) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[8.417517] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[8.417854] (lslidar_driver) StderrLine: {'line': b'** WARNING ** visualization features related to openni2 will be disabled\n'}
+[8.433850] (-) TimerEvent: {}
+[8.454380] (lslidar_driver) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[8.471688] (lslidar_driver) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[8.490722] (lslidar_driver) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[8.501394] (lslidar_driver) StderrLine: {'line': b'** WARNING ** apps features related to openni will be disabled\n'}
+[8.501917] (lslidar_driver) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[8.502113] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[8.533240] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[8.533652] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[8.533851] (-) TimerEvent: {}
+[8.535367] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[8.537645] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[8.539935] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[8.542025] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[8.543916] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[8.545641] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[8.547311] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[8.549415] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[8.551968] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[8.553998] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[8.555565] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[8.558205] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[8.560597] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[8.563940] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[8.569090] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[8.569607] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[8.571343] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[8.573732] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[8.578122] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[8.581729] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[8.583984] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[8.594073] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[8.594411] (lslidar_driver) StdoutLine: {'line': b'-- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)\n'}
+[8.638938] (-) TimerEvent: {}
+[8.739739] (-) TimerEvent: {}
+[8.746526] (lslidar_driver) StdoutLine: {'line': b'-- Found lslidar_msgs: 1.2.0 (/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)\n'}
+[8.832810] (lslidar_driver) StdoutLine: {'line': b'-- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)\n'}
+[8.840194] (-) TimerEvent: {}
+[8.891861] (lslidar_driver) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[8.941146] (-) TimerEvent: {}
+[9.041871] (-) TimerEvent: {}
+[9.142758] (-) TimerEvent: {}
+[9.246163] (-) TimerEvent: {}
+[9.346948] (-) TimerEvent: {}
+[9.447732] (-) TimerEvent: {}
+[9.550719] (-) TimerEvent: {}
+[9.654759] (-) TimerEvent: {}
+[9.764646] (-) TimerEvent: {}
+[9.865508] (-) TimerEvent: {}
+[9.966751] (-) TimerEvent: {}
+[9.977894] (lslidar_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.067081] (-) TimerEvent: {}
+[10.168001] (-) TimerEvent: {}
+[10.215526] (lslidar_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[10.222686] (lslidar_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver\n'}
+[10.274590] (-) TimerEvent: {}
+[10.348515] (lslidar_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lslidar_driver_node\x1b[0m\n'}
+[10.380893] (-) TimerEvent: {}
+[10.481709] (-) TimerEvent: {}
+[10.496401] (lslidar_driver) StderrLine: {'line': b"make[2]: Warning: File '/home/ubuntu/Desktop/cartographer_ws/src/lslidar_driver/src/lslidar_driver_node.cc' has modification time 20729 s in the future\n"}
+[10.555131] (lslidar_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o\x1b[0m\n'}
+[10.555732] (lslidar_driver) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o\x1b[0m\n'}
+[10.572285] (lslidar_driver) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lsiosr.cpp.o\x1b[0m\n'}
+[10.580816] (lslidar_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o\x1b[0m\n'}
+[10.581842] (-) TimerEvent: {}
+[10.682330] (-) TimerEvent: {}
+[10.782944] (-) TimerEvent: {}
+[10.883629] (-) TimerEvent: {}
+[10.984461] (-) TimerEvent: {}
+[11.085158] (-) TimerEvent: {}
+[11.185937] (-) TimerEvent: {}
+[11.286622] (-) TimerEvent: {}
+[11.387281] (-) TimerEvent: {}
+[11.487896] (-) TimerEvent: {}
+[11.588611] (-) TimerEvent: {}
+[11.689379] (-) TimerEvent: {}
+[11.790025] (-) TimerEvent: {}
+[11.890692] (-) TimerEvent: {}
+[11.991283] (-) TimerEvent: {}
+[12.091908] (-) TimerEvent: {}
+[12.192557] (-) TimerEvent: {}
+[12.293561] (-) TimerEvent: {}
+[12.394072] (-) TimerEvent: {}
+[12.494792] (-) TimerEvent: {}
+[12.595453] (-) TimerEvent: {}
+[12.696168] (-) TimerEvent: {}
+[12.796856] (-) TimerEvent: {}
+[12.897673] (-) TimerEvent: {}
+[12.998210] (-) TimerEvent: {}
+[13.099462] (-) TimerEvent: {}
+[13.201792] (-) TimerEvent: {}
+[13.302527] (-) TimerEvent: {}
+[13.403231] (-) TimerEvent: {}
+[13.503949] (-) TimerEvent: {}
+[13.604627] (-) TimerEvent: {}
+[13.705291] (-) TimerEvent: {}
+[13.805921] (-) TimerEvent: {}
+[13.906543] (-) TimerEvent: {}
+[14.007180] (-) TimerEvent: {}
+[14.107846] (-) TimerEvent: {}
+[14.208666] (-) TimerEvent: {}
+[14.309414] (-) TimerEvent: {}
+[14.410014] (-) TimerEvent: {}
+[14.510743] (-) TimerEvent: {}
+[14.611426] (-) TimerEvent: {}
+[14.712169] (-) TimerEvent: {}
+[14.812688] (-) TimerEvent: {}
+[14.913408] (-) TimerEvent: {}
+[15.014135] (-) TimerEvent: {}
+[15.114841] (-) TimerEvent: {}
+[15.215592] (-) TimerEvent: {}
+[15.316327] (-) TimerEvent: {}
+[15.417174] (-) TimerEvent: {}
+[15.520592] (-) TimerEvent: {}
+[15.622414] (-) TimerEvent: {}
+[15.724137] (-) TimerEvent: {}
+[15.825894] (-) TimerEvent: {}
+[15.927518] (-) TimerEvent: {}
+[16.029303] (-) TimerEvent: {}
+[16.131055] (-) TimerEvent: {}
+[16.232815] (-) TimerEvent: {}
+[16.333861] (-) TimerEvent: {}
+[16.435459] (-) TimerEvent: {}
+[16.537225] (-) TimerEvent: {}
+[16.639063] (-) TimerEvent: {}
+[16.739998] (-) TimerEvent: {}
+[16.840996] (-) TimerEvent: {}
+[16.942010] (-) TimerEvent: {}
+[17.043000] (-) TimerEvent: {}
+[17.143764] (-) TimerEvent: {}
+[17.245718] (-) TimerEvent: {}
+[17.346423] (-) TimerEvent: {}
+[17.447112] (-) TimerEvent: {}
+[17.548000] (-) TimerEvent: {}
+[17.653561] (-) TimerEvent: {}
+[17.761556] (-) TimerEvent: {}
+[17.862215] (-) TimerEvent: {}
+[17.962829] (-) TimerEvent: {}
+[18.068027] (-) TimerEvent: {}
+[18.169000] (-) TimerEvent: {}
+[18.270060] (-) TimerEvent: {}
+[18.370742] (-) TimerEvent: {}
+[18.471420] (-) TimerEvent: {}
+[18.572426] (-) TimerEvent: {}
+[18.673290] (-) TimerEvent: {}
+[18.773832] (-) TimerEvent: {}
+[18.874354] (-) TimerEvent: {}
+[18.975520] (-) TimerEvent: {}
+[19.076294] (-) TimerEvent: {}
+[19.177230] (-) TimerEvent: {}
+[19.278019] (-) TimerEvent: {}
+[19.378845] (-) TimerEvent: {}
+[19.479554] (-) TimerEvent: {}
+[19.580219] (-) TimerEvent: {}
+[19.681094] (-) TimerEvent: {}
+[19.781628] (-) TimerEvent: {}
+[19.882410] (-) TimerEvent: {}
+[19.983587] (-) TimerEvent: {}
+[20.084208] (-) TimerEvent: {}
+[20.185048] (-) TimerEvent: {}
+[20.285653] (-) TimerEvent: {}
+[20.386396] (-) TimerEvent: {}
+[20.487469] (-) TimerEvent: {}
+[20.588273] (-) TimerEvent: {}
+[20.688999] (-) TimerEvent: {}
+[20.789579] (-) TimerEvent: {}
+[20.890208] (-) TimerEvent: {}
+[20.990932] (-) TimerEvent: {}
+[21.092826] (-) TimerEvent: {}
+[21.194126] (-) TimerEvent: {}
+[21.294840] (-) TimerEvent: {}
+[21.395557] (-) TimerEvent: {}
+[21.496638] (-) TimerEvent: {}
+[21.597121] (-) TimerEvent: {}
+[21.697836] (-) TimerEvent: {}
+[21.799423] (-) TimerEvent: {}
+[21.900113] (-) TimerEvent: {}
+[22.000646] (-) TimerEvent: {}
+[22.101254] (-) TimerEvent: {}
+[22.202113] (-) TimerEvent: {}
+[22.302819] (-) TimerEvent: {}
+[22.403504] (-) TimerEvent: {}
+[22.504513] (-) TimerEvent: {}
+[22.606530] (-) TimerEvent: {}
+[22.707017] (-) TimerEvent: {}
+[22.807588] (-) TimerEvent: {}
+[22.909617] (-) TimerEvent: {}
+[23.011176] (-) TimerEvent: {}
+[23.112026] (-) TimerEvent: {}
+[23.212647] (-) TimerEvent: {}
+[23.313221] (-) TimerEvent: {}
+[23.414217] (-) TimerEvent: {}
+[23.515979] (-) TimerEvent: {}
+[23.616735] (-) TimerEvent: {}
+[23.718017] (-) TimerEvent: {}
+[23.819475] (-) TimerEvent: {}
+[23.921169] (-) TimerEvent: {}
+[24.023413] (-) TimerEvent: {}
+[24.124279] (-) TimerEvent: {}
+[24.225408] (-) TimerEvent: {}
+[24.328421] (-) TimerEvent: {}
+[24.429372] (-) TimerEvent: {}
+[24.534715] (-) TimerEvent: {}
+[24.637837] (-) TimerEvent: {}
+[24.738821] (-) TimerEvent: {}
+[24.839640] (-) TimerEvent: {}
+[24.940324] (-) TimerEvent: {}
+[25.041179] (-) TimerEvent: {}
+[25.141785] (-) TimerEvent: {}
+[25.246845] (-) TimerEvent: {}
+[25.347627] (-) TimerEvent: {}
+[25.448349] (-) TimerEvent: {}
+[25.553030] (-) TimerEvent: {}
+[25.653637] (-) TimerEvent: {}
+[25.754385] (-) TimerEvent: {}
+[25.856091] (-) TimerEvent: {}
+[25.957097] (-) TimerEvent: {}
+[26.057818] (-) TimerEvent: {}
+[26.158658] (-) TimerEvent: {}
+[26.260063] (-) TimerEvent: {}
+[26.361172] (-) TimerEvent: {}
+[26.462301] (-) TimerEvent: {}
+[26.566336] (-) TimerEvent: {}
+[26.667279] (-) TimerEvent: {}
+[26.767945] (-) TimerEvent: {}
+[26.868785] (-) TimerEvent: {}
+[26.970115] (-) TimerEvent: {}
+[27.070666] (-) TimerEvent: {}
+[27.171218] (-) TimerEvent: {}
+[27.272411] (-) TimerEvent: {}
+[27.373248] (-) TimerEvent: {}
+[27.473893] (-) TimerEvent: {}
+[27.574776] (-) TimerEvent: {}
+[27.676322] (-) TimerEvent: {}
+[27.780845] (-) TimerEvent: {}
+[27.881543] (-) TimerEvent: {}
+[27.983828] (-) TimerEvent: {}
+[28.085086] (-) TimerEvent: {}
+[28.185700] (-) TimerEvent: {}
+[28.286759] (-) TimerEvent: {}
+[28.387374] (-) TimerEvent: {}
+[28.487976] (-) TimerEvent: {}
+[28.589254] (-) TimerEvent: {}
+[28.689963] (-) TimerEvent: {}
+[28.792334] (-) TimerEvent: {}
+[28.898674] (-) TimerEvent: {}
+[28.999311] (-) TimerEvent: {}
+[29.100066] (-) TimerEvent: {}
+[29.200873] (-) TimerEvent: {}
+[29.301702] (-) TimerEvent: {}
+[29.402741] (-) TimerEvent: {}
+[29.503317] (-) TimerEvent: {}
+[29.603959] (-) TimerEvent: {}
+[29.704757] (-) TimerEvent: {}
+[29.805456] (-) TimerEvent: {}
+[29.906258] (-) TimerEvent: {}
+[30.006903] (-) TimerEvent: {}
+[30.112606] (-) TimerEvent: {}
+[30.218862] (-) TimerEvent: {}
+[30.319611] (-) TimerEvent: {}
+[30.420394] (-) TimerEvent: {}
+[30.521387] (-) TimerEvent: {}
+[30.627101] (-) TimerEvent: {}
+[30.728169] (-) TimerEvent: {}
+[30.829174] (-) TimerEvent: {}
+[30.929899] (-) TimerEvent: {}
+[31.030449] (-) TimerEvent: {}
+[31.131142] (-) TimerEvent: {}
+[31.231786] (-) TimerEvent: {}
+[31.332303] (-) TimerEvent: {}
+[31.433904] (-) TimerEvent: {}
+[31.534984] (-) TimerEvent: {}
+[31.635600] (-) TimerEvent: {}
+[31.736330] (-) TimerEvent: {}
+[31.837618] (-) TimerEvent: {}
+[31.938589] (-) TimerEvent: {}
+[32.039259] (-) TimerEvent: {}
+[32.139844] (-) TimerEvent: {}
+[32.240483] (-) TimerEvent: {}
+[32.341411] (-) TimerEvent: {}
+[32.442110] (-) TimerEvent: {}
+[32.542773] (-) TimerEvent: {}
+[32.653848] (-) TimerEvent: {}
+[32.754656] (-) TimerEvent: {}
+[32.856689] (-) TimerEvent: {}
+[32.957429] (-) TimerEvent: {}
+[33.058064] (-) TimerEvent: {}
+[33.160097] (-) TimerEvent: {}
+[33.260981] (-) TimerEvent: {}
+[33.361828] (-) TimerEvent: {}
+[33.466531] (-) TimerEvent: {}
+[33.570491] (-) TimerEvent: {}
+[33.671275] (-) TimerEvent: {}
+[33.777174] (-) TimerEvent: {}
+[33.878363] (-) TimerEvent: {}
+[33.979325] (-) TimerEvent: {}
+[34.080463] (-) TimerEvent: {}
+[34.181378] (-) TimerEvent: {}
+[34.281929] (-) TimerEvent: {}
+[34.382806] (-) TimerEvent: {}
+[34.487110] (-) TimerEvent: {}
+[34.588549] (-) TimerEvent: {}
+[34.689499] (-) TimerEvent: {}
+[34.790615] (-) TimerEvent: {}
+[34.891685] (-) TimerEvent: {}
+[34.992622] (-) TimerEvent: {}
+[35.095559] (-) TimerEvent: {}
+[35.196381] (-) TimerEvent: {}
+[35.298186] (-) TimerEvent: {}
+[35.398896] (-) TimerEvent: {}
+[35.499496] (-) TimerEvent: {}
+[35.600565] (-) TimerEvent: {}
+[35.701350] (-) TimerEvent: {}
+[35.801945] (-) TimerEvent: {}
+[35.904066] (-) TimerEvent: {}
+[36.004817] (-) TimerEvent: {}
+[36.106048] (-) TimerEvent: {}
+[36.206619] (-) TimerEvent: {}
+[36.307613] (-) TimerEvent: {}
+[36.408637] (-) TimerEvent: {}
+[36.509317] (-) TimerEvent: {}
+[36.610025] (-) TimerEvent: {}
+[36.710847] (-) TimerEvent: {}
+[36.811691] (-) TimerEvent: {}
+[36.912431] (-) TimerEvent: {}
+[37.013845] (-) TimerEvent: {}
+[37.114912] (-) TimerEvent: {}
+[37.216308] (-) TimerEvent: {}
+[37.316954] (-) TimerEvent: {}
+[37.417845] (-) TimerEvent: {}
+[37.518757] (-) TimerEvent: {}
+[37.619457] (-) TimerEvent: {}
+[37.720189] (-) TimerEvent: {}
+[37.821102] (-) TimerEvent: {}
+[37.922727] (-) TimerEvent: {}
+[38.023387] (-) TimerEvent: {}
+[38.123934] (-) TimerEvent: {}
+[38.224638] (-) TimerEvent: {}
+[38.325419] (-) TimerEvent: {}
+[38.426181] (-) TimerEvent: {}
+[38.533717] (-) TimerEvent: {}
+[38.642651] (-) TimerEvent: {}
+[38.743547] (-) TimerEvent: {}
+[38.844402] (-) TimerEvent: {}
+[38.952042] (-) TimerEvent: {}
+[39.052673] (-) TimerEvent: {}
+[39.153385] (-) TimerEvent: {}
+[39.254106] (-) TimerEvent: {}
+[39.355494] (-) TimerEvent: {}
+[39.456435] (-) TimerEvent: {}
+[39.557160] (-) TimerEvent: {}
+[39.658052] (-) TimerEvent: {}
+[39.758952] (-) TimerEvent: {}
+[39.859604] (-) TimerEvent: {}
+[39.960186] (-) TimerEvent: {}
+[40.060905] (-) TimerEvent: {}
+[40.163911] (-) TimerEvent: {}
+[40.264608] (-) TimerEvent: {}
+[40.365248] (-) TimerEvent: {}
+[40.467836] (-) TimerEvent: {}
+[40.568914] (-) TimerEvent: {}
+[40.669622] (-) TimerEvent: {}
+[40.770381] (-) TimerEvent: {}
+[40.871121] (-) TimerEvent: {}
+[40.973659] (-) TimerEvent: {}
+[41.075914] (-) TimerEvent: {}
+[41.176996] (-) TimerEvent: {}
+[41.279641] (-) TimerEvent: {}
+[41.380362] (-) TimerEvent: {}
+[41.481726] (-) TimerEvent: {}
+[41.582393] (-) TimerEvent: {}
+[41.683225] (-) TimerEvent: {}
+[41.783879] (-) TimerEvent: {}
+[41.884900] (-) TimerEvent: {}
+[41.985844] (-) TimerEvent: {}
+[42.086611] (-) TimerEvent: {}
+[42.187722] (-) TimerEvent: {}
+[42.288513] (-) TimerEvent: {}
+[42.396504] (-) TimerEvent: {}
+[42.497327] (-) TimerEvent: {}
+[42.597894] (-) TimerEvent: {}
+[42.698506] (-) TimerEvent: {}
+[42.799090] (-) TimerEvent: {}
+[42.901209] (-) TimerEvent: {}
+[43.005361] (-) TimerEvent: {}
+[43.106130] (-) TimerEvent: {}
+[43.212901] (-) TimerEvent: {}
+[43.313610] (-) TimerEvent: {}
+[43.414483] (-) TimerEvent: {}
+[43.515168] (-) TimerEvent: {}
+[43.616184] (-) TimerEvent: {}
+[43.717170] (-) TimerEvent: {}
+[43.817946] (-) TimerEvent: {}
+[43.921688] (-) TimerEvent: {}
+[44.024081] (-) TimerEvent: {}
+[44.130253] (-) TimerEvent: {}
+[44.231313] (-) TimerEvent: {}
+[44.333322] (-) TimerEvent: {}
+[44.433968] (-) TimerEvent: {}
+[44.534517] (-) TimerEvent: {}
+[44.635341] (-) TimerEvent: {}
+[44.736400] (-) TimerEvent: {}
+[44.837457] (-) TimerEvent: {}
+[44.938247] (-) TimerEvent: {}
+[45.039293] (-) TimerEvent: {}
+[45.142554] (-) TimerEvent: {}
+[45.243689] (-) TimerEvent: {}
+[45.344251] (-) TimerEvent: {}
+[45.444840] (-) TimerEvent: {}
+[45.545755] (-) TimerEvent: {}
+[45.646626] (-) TimerEvent: {}
+[45.749702] (-) TimerEvent: {}
+[45.850429] (-) TimerEvent: {}
+[45.957632] (-) TimerEvent: {}
+[46.058107] (-) TimerEvent: {}
+[46.158652] (-) TimerEvent: {}
+[46.259227] (-) TimerEvent: {}
+[46.359834] (-) TimerEvent: {}
+[46.460732] (-) TimerEvent: {}
+[46.565095] (-) TimerEvent: {}
+[46.666883] (-) TimerEvent: {}
+[46.769957] (-) TimerEvent: {}
+[46.870597] (-) TimerEvent: {}
+[46.971213] (-) TimerEvent: {}
+[47.071784] (-) TimerEvent: {}
+[47.172605] (-) TimerEvent: {}
+[47.273262] (-) TimerEvent: {}
+[47.373838] (-) TimerEvent: {}
+[47.442566] (lslidar_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lslidar_driver_node\x1b[0m\n'}
+[47.476274] (-) TimerEvent: {}
+[47.577238] (-) TimerEvent: {}
+[47.683661] (-) TimerEvent: {}
+[47.784588] (-) TimerEvent: {}
+[47.885366] (-) TimerEvent: {}
+[47.986040] (-) TimerEvent: {}
+[48.086571] (-) TimerEvent: {}
+[48.187348] (-) TimerEvent: {}
+[48.288152] (-) TimerEvent: {}
+[48.388927] (-) TimerEvent: {}
+[48.489728] (-) TimerEvent: {}
+[48.594400] (-) TimerEvent: {}
+[48.695231] (-) TimerEvent: {}
+[48.795926] (-) TimerEvent: {}
+[48.896622] (-) TimerEvent: {}
+[48.998068] (-) TimerEvent: {}
+[49.101457] (-) TimerEvent: {}
+[49.202484] (-) TimerEvent: {}
+[49.303543] (-) TimerEvent: {}
+[49.405024] (-) TimerEvent: {}
+[49.507341] (-) TimerEvent: {}
+[49.589534] (lslidar_driver) StderrLine: {'line': b'make[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[49.607289] (lslidar_driver) StdoutLine: {'line': b'[100%] Built target lslidar_driver_node\n'}
+[49.607822] (-) TimerEvent: {}
+[49.645352] (lslidar_driver) CommandEnded: {'returncode': 0}
+[49.708231] (-) TimerEvent: {}
+[49.777616] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'install'}
+[49.779361] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver'], 'cwd': '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'ubuntu'), ('GIO_MODULE_DIR', '/home/ubuntu/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1441'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/172/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/ubuntu/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/172/usr/share/code/code'), ('MANAGERPID', '1152'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2788'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/cartographer_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:53421'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/Desktop/cartographer_ws/install/cartographer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ubuntu/Desktop/cartographer_ws/install/cartographer/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-virtual-machine:@/tmp/.ICE-unix/1476,unix/ubuntu-virtual-machine:/tmp/.ICE-unix/1476'), ('GTK_EXE_PREFIX', '/snap/code/172/usr'), ('INVOCATION_ID', '1b24003da64b47c6aaf4bf86cc0b367b'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/172/usr/lib/locale'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b0561e5d5e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ubuntu/snap/code/172/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/ubuntu/snap/code/172/.local/share:/home/ubuntu/snap/code/172:/snap/code/172/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer:/opt/ros/foxy')]), 'shell': False}
+[49.808609] (-) TimerEvent: {}
+[49.810369] (lslidar_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[49.811636] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch\n'}
+[49.811939] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py\n'}
+[49.812121] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py\n'}
+[49.812291] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py\n'}
+[49.812668] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py\n'}
+[49.813135] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py\n'}
+[49.813789] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py\n'}
+[49.814244] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py\n'}
+[49.814460] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py\n'}
+[49.814673] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py\n'}
+[49.814857] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py\n'}
+[49.815040] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params\n'}
+[49.815215] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2\n'}
+[49.815384] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml\n'}
+[49.815550] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml\n'}
+[49.815720] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml\n'}
+[49.815887] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml\n'}
+[49.816078] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2\n'}
+[49.816246] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml\n'}
+[49.816430] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml\n'}
+[49.816596] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml\n'}
+[49.816957] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml\n'}
+[49.819782] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/rviz\n'}
+[49.820166] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz\n'}
+[49.820371] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node\n'}
+[49.826854] (lslidar_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""\n'}
+[49.827933] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver\n'}
+[49.830875] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver\n'}
+[49.831651] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh\n'}
+[49.831994] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv\n'}
+[49.832241] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh\n'}
+[49.832912] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv\n'}
+[49.833873] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash\n'}
+[49.839878] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh\n'}
+[49.840177] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh\n'}
+[49.840460] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv\n'}
+[49.840676] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/package.dsv\n'}
+[49.841138] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver\n'}
+[49.845959] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[49.849850] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[49.851663] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake\n'}
+[49.852507] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake\n'}
+[49.853468] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/package.xml\n'}
+[49.853786] (lslidar_driver) CommandEnded: {'returncode': 0}
+[49.909313] (-) TimerEvent: {}
+[50.010689] (-) TimerEvent: {}
+[50.105409] (lslidar_driver) JobEnded: {'identifier': 'lslidar_driver', 'rc': 0}
+[50.108259] (-) EventReactorShutdown: {}

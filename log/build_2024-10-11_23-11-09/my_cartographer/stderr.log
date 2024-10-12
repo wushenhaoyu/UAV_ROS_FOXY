@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:100 (file):
+  file INSTALL cannot find
+  "/home/jetson/Desktop/cartographer_ws/my_cartographer/rviz": No such file
+  or directory.
+
+

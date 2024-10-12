@@ -1,0 +1,3 @@
+[console_scripts]
+imu_serial = imu.imu_serial:main
+

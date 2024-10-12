@@ -1,0 +1,602 @@
+[0.000000] (-) TimerEvent: {}
+[0.000793] (lslidar_msgs) JobQueued: {'identifier': 'lslidar_msgs', 'dependencies': OrderedDict()}
+[0.001465] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict([('lslidar_msgs', '/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs')])}
+[0.001825] (lslidar_msgs) JobStarted: {'identifier': 'lslidar_msgs'}
+[0.027608] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'cmake'}
+[0.030015] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'build'}
+[0.032271] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Desktop/cartographer_ws/build/lslidar_msgs', '--', '-j6', '-l6'], 'cwd': '/home/jetson/Desktop/cartographer_ws/build/lslidar_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'jetson'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '3061'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/jetson'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.4.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin Nano Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2509'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3584'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/cartographer_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (4GB ram)'), ('JETSON_SERIAL_NUMBER', '1421524220133'), ('JOURNAL_STREAM', '8:55973'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3096,unix/ubuntu:/tmp/.ICE-unix/3096'), ('INVOCATION_ID', '3238424123f64c488c7e81ea3d2cdc95'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9870dd3bfd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/Desktop/cartographer_ws/build/lslidar_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.2'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3767-0004')]), 'shell': False}
+[0.099315] (-) TimerEvent: {}
+[0.200108] (-) TimerEvent: {}
+[0.217641] (lslidar_msgs) StdoutLine: {'line': b'[  1%] Built target lslidar_msgs__cpp\n'}
+[0.220994] (lslidar_msgs) StdoutLine: {'line': b'[ 12%] Built target lslidar_msgs__rosidl_generator_c\n'}
+[0.280018] (lslidar_msgs) StdoutLine: {'line': b'[ 23%] Built target lslidar_msgs__rosidl_typesupport_c\n'}
+[0.294984] (lslidar_msgs) StdoutLine: {'line': b'[ 34%] Built target lslidar_msgs__rosidl_typesupport_cpp\n'}
+[0.299749] (lslidar_msgs) StdoutLine: {'line': b'[ 57%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.300216] (-) TimerEvent: {}
+[0.300482] (lslidar_msgs) StdoutLine: {'line': b'[ 57%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.308427] (lslidar_msgs) StdoutLine: {'line': b'[ 68%] Built target lslidar_msgs__rosidl_typesupport_introspection_c\n'}
+[0.364966] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.400419] (-) TimerEvent: {}
+[0.413497] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs\n'}
+[0.471091] (lslidar_msgs) StdoutLine: {'line': b'[ 80%] Built target lslidar_msgs__py\n'}
+[0.500602] (-) TimerEvent: {}
+[0.545567] (lslidar_msgs) StdoutLine: {'line': b'[ 90%] Built target lslidar_msgs__python\n'}
+[0.600826] (-) TimerEvent: {}
+[0.646946] (lslidar_msgs) StdoutLine: {'line': b'[ 93%] Built target lslidar_msgs__rosidl_typesupport_c__pyext\n'}
+[0.665015] (lslidar_msgs) StdoutLine: {'line': b'[ 96%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.687764] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.701002] (-) TimerEvent: {}
+[0.715927] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[0.801202] (-) TimerEvent: {}
+[0.902840] (-) TimerEvent: {}
+[0.930636] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'install'}
+[0.957437] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/Desktop/cartographer_ws/build/lslidar_msgs'], 'cwd': '/home/jetson/Desktop/cartographer_ws/build/lslidar_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'jetson'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '3061'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/jetson'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.4.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin Nano Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2509'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3584'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/cartographer_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (4GB ram)'), ('JETSON_SERIAL_NUMBER', '1421524220133'), ('JOURNAL_STREAM', '8:55973'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3096,unix/ubuntu:/tmp/.ICE-unix/3096'), ('INVOCATION_ID', '3238424123f64c488c7e81ea3d2cdc95'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9870dd3bfd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/Desktop/cartographer_ws/build/lslidar_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.2'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3767-0004')]), 'shell': False}
+[0.981543] (lslidar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.982387] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs\n'}
+[0.982797] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs\n'}
+[0.983087] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg\n'}
+[0.983309] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_sweep.h\n'}
+[0.983475] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_difop.h\n'}
+[0.983626] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail\n'}
+[0.983770] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__struct.h\n'}
+[0.983914] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__functions.h\n'}
+[0.984114] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__functions.c\n'}
+[0.984260] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__functions.h\n'}
+[0.984438] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__struct.h\n'}
+[0.984718] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__functions.h\n'}
+[0.984990] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__struct.h\n'}
+[0.985138] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h\n'}
+[0.985304] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__functions.c\n'}
+[0.985440] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__functions.h\n'}
+[0.985577] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__type_support.h\n'}
+[0.985765] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__functions.h\n'}
+[0.985907] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__type_support.h\n'}
+[0.986076] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__functions.c\n'}
+[0.986334] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__type_support.h\n'}
+[0.986608] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__functions.c\n'}
+[0.986792] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__type_support.h\n'}
+[0.986931] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__struct.h\n'}
+[0.987068] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__functions.c\n'}
+[0.987202] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__struct.h\n'}
+[0.987402] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.987549] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_packet.h\n'}
+[0.987689] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_point.h\n'}
+[0.987897] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_scan.h\n'}
+[0.988168] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh\n'}
+[0.988479] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv\n'}
+[0.988719] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so\n'}
+[0.988872] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs\n'}
+[0.989014] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg\n'}
+[0.989153] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail\n'}
+[0.989290] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h\n'}
+[0.989447] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h\n'}
+[0.989659] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h\n'}
+[0.989802] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h\n'}
+[0.989944] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h\n'}
+[0.990082] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.990217] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.990402] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs\n'}
+[0.990542] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg\n'}
+[0.990682] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail\n'}
+[0.990947] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.991219] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.991522] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/dds_fastrtps\n'}
+[0.991829] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.992201] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.992444] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.992844] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.993218] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.993404] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs\n'}
+[0.993578] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg\n'}
+[0.993737] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.993942] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail\n'}
+[0.994125] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h\n'}
+[0.994289] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h\n'}
+[0.994432] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c\n'}
+[0.994575] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__type_support.c\n'}
+[0.994754] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__type_support.c\n'}
+[0.994897] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__type_support.c\n'}
+[0.995034] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__type_support.c\n'}
+[0.995170] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h\n'}
+[0.995304] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h\n'}
+[0.995437] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h\n'}
+[0.995567] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.995699] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so\n'}
+[0.995832] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs\n'}
+[0.995964] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg\n'}
+[0.996103] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_sweep.hpp\n'}
+[0.996236] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.996370] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_difop.hpp\n'}
+[0.996501] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_packet.hpp\n'}
+[0.996636] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_point.hpp\n'}
+[0.996801] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail\n'}
+[0.996960] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp\n'}
+[0.997099] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp\n'}
+[0.997239] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp\n'}
+[0.997375] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp\n'}
+[0.997521] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp\n'}
+[0.997657] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp\n'}
+[0.997792] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp\n'}
+[0.997926] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp\n'}
+[0.998058] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__builder.hpp\n'}
+[0.998195] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp\n'}
+[0.998328] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp\n'}
+[0.998487] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp\n'}
+[0.998720] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp\n'}
+[0.998866] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp\n'}
+[0.999002] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__traits.hpp\n'}
+[0.999135] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__struct.hpp\n'}
+[0.999269] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp\n'}
+[0.999405] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp\n'}
+[0.999539] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp\n'}
+[0.999669] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp\n'}
+[0.999801] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/lslidar_scan.hpp\n'}
+[0.999932] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs\n'}
+[1.000065] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg\n'}
+[1.000196] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail\n'}
+[1.000329] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.000463] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp\n'}
+[1.000610] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp\n'}
+[1.000795] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.000940] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.001087] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp\n'}
+[1.001224] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp\n'}
+[1.001359] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp\n'}
+[1.001495] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.001625] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/include/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.001754] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.001888] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so\n'}
+[1.002021] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh\n'}
+[1.002153] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv\n'}
+[1.002281] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/__init__.py\n'}
+[1.002895] (-) TimerEvent: {}
+[1.064390] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg\n'}
+[1.065133] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_scan_s.c\n'}
+[1.065336] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_packet_s.c\n'}
+[1.065549] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_scan.py\n'}
+[1.065713] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_sweep_s.c\n'}
+[1.065870] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/__init__.py\n'}
+[1.066086] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_sweep.py\n'}
+[1.066245] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_point_s.c\n'}
+[1.066390] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_packet.py\n'}
+[1.066551] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_difop.py\n'}
+[1.066698] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_point.py\n'}
+[1.066840] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/msg/_lslidar_difop_s.c\n'}
+[1.066978] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.067449] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.068920] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.070097] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/liblslidar_msgs__python.so\n'}
+[1.070465] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl\n'}
+[1.070701] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl\n'}
+[1.070946] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl\n'}
+[1.071167] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl\n'}
+[1.071391] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl\n'}
+[1.071612] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg\n'}
+[1.071820] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg\n'}
+[1.072047] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg\n'}
+[1.072233] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg\n'}
+[1.072441] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg\n'}
+[1.072629] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs\n'}
+[1.072902] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs\n'}
+[1.073133] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh\n'}
+[1.073287] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv\n'}
+[1.073423] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh\n'}
+[1.073582] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv\n'}
+[1.073768] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash\n'}
+[1.073913] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh\n'}
+[1.074052] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh\n'}
+[1.074216] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv\n'}
+[1.074475] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv\n'}
+[1.074614] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs\n'}
+[1.074757] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_generator_cExport.cmake\n'}
+[1.074911] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.075151] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.075291] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.075481] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.075668] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.076112] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.076570] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.076822] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.077221] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.077510] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.077710] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.077936] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.078160] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.078416] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.078635] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.078779] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.078915] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.079063] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake\n'}
+[1.079200] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake\n'}
+[1.079340] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml\n'}
+[1.083740] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[1.103082] (-) TimerEvent: {}
+[1.203776] (-) TimerEvent: {}
+[1.305376] (-) TimerEvent: {}
+[1.383534] (lslidar_msgs) JobEnded: {'identifier': 'lslidar_msgs', 'rc': 0}
+[1.386499] (lslidar_driver) JobStarted: {'identifier': 'lslidar_driver'}
+[1.405763] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'cmake'}
+[1.406062] (-) TimerEvent: {}
+[1.408539] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'build'}
+[1.409422] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Desktop/cartographer_ws/build/lslidar_driver', '--', '-j6', '-l6'], 'cwd': '/home/jetson/Desktop/cartographer_ws/build/lslidar_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'jetson'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '3061'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib:/usr/local/cuda/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64'), ('HOME', '/home/jetson'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.4.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin Nano Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2509'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3584'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/cartographer_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (4GB ram)'), ('JETSON_SERIAL_NUMBER', '1421524220133'), ('JOURNAL_STREAM', '8:55973'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3096,unix/ubuntu:/tmp/.ICE-unix/3096'), ('INVOCATION_ID', '3238424123f64c488c7e81ea3d2cdc95'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9870dd3bfd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/Desktop/cartographer_ws/build/lslidar_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.2'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3767-0004')]), 'shell': False}
+[1.506314] (-) TimerEvent: {}
+[1.587100] (lslidar_driver) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o\x1b[0m\n'}
+[1.587693] (lslidar_driver) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o\x1b[0m\n'}
+[1.606506] (-) TimerEvent: {}
+[1.707188] (-) TimerEvent: {}
+[1.807860] (-) TimerEvent: {}
+[1.908602] (-) TimerEvent: {}
+[2.009782] (-) TimerEvent: {}
+[2.110814] (-) TimerEvent: {}
+[2.211562] (-) TimerEvent: {}
+[2.312271] (-) TimerEvent: {}
+[2.412950] (-) TimerEvent: {}
+[2.513591] (-) TimerEvent: {}
+[2.614290] (-) TimerEvent: {}
+[2.716331] (-) TimerEvent: {}
+[2.817032] (-) TimerEvent: {}
+[2.917728] (-) TimerEvent: {}
+[3.018444] (-) TimerEvent: {}
+[3.119231] (-) TimerEvent: {}
+[3.219870] (-) TimerEvent: {}
+[3.320546] (-) TimerEvent: {}
+[3.421620] (-) TimerEvent: {}
+[3.522367] (-) TimerEvent: {}
+[3.623305] (-) TimerEvent: {}
+[3.724090] (-) TimerEvent: {}
+[3.825482] (-) TimerEvent: {}
+[3.926183] (-) TimerEvent: {}
+[4.026861] (-) TimerEvent: {}
+[4.127749] (-) TimerEvent: {}
+[4.231905] (-) TimerEvent: {}
+[4.332676] (-) TimerEvent: {}
+[4.433400] (-) TimerEvent: {}
+[4.534143] (-) TimerEvent: {}
+[4.635052] (-) TimerEvent: {}
+[4.735859] (-) TimerEvent: {}
+[4.836529] (-) TimerEvent: {}
+[4.937244] (-) TimerEvent: {}
+[5.038268] (-) TimerEvent: {}
+[5.139011] (-) TimerEvent: {}
+[5.239760] (-) TimerEvent: {}
+[5.341099] (-) TimerEvent: {}
+[5.443293] (-) TimerEvent: {}
+[5.544017] (-) TimerEvent: {}
+[5.655620] (-) TimerEvent: {}
+[5.756294] (-) TimerEvent: {}
+[5.857058] (-) TimerEvent: {}
+[5.958660] (-) TimerEvent: {}
+[6.059395] (-) TimerEvent: {}
+[6.160090] (-) TimerEvent: {}
+[6.260939] (-) TimerEvent: {}
+[6.361650] (-) TimerEvent: {}
+[6.462409] (-) TimerEvent: {}
+[6.563105] (-) TimerEvent: {}
+[6.663824] (-) TimerEvent: {}
+[6.764532] (-) TimerEvent: {}
+[6.865226] (-) TimerEvent: {}
+[6.966004] (-) TimerEvent: {}
+[7.066803] (-) TimerEvent: {}
+[7.167506] (-) TimerEvent: {}
+[7.268208] (-) TimerEvent: {}
+[7.368962] (-) TimerEvent: {}
+[7.469700] (-) TimerEvent: {}
+[7.570421] (-) TimerEvent: {}
+[7.671115] (-) TimerEvent: {}
+[7.772167] (-) TimerEvent: {}
+[7.874029] (-) TimerEvent: {}
+[7.974806] (-) TimerEvent: {}
+[8.075518] (-) TimerEvent: {}
+[8.176214] (-) TimerEvent: {}
+[8.277171] (-) TimerEvent: {}
+[8.378085] (-) TimerEvent: {}
+[8.478997] (-) TimerEvent: {}
+[8.579681] (-) TimerEvent: {}
+[8.680814] (-) TimerEvent: {}
+[8.781547] (-) TimerEvent: {}
+[8.882247] (-) TimerEvent: {}
+[8.982987] (-) TimerEvent: {}
+[9.084430] (-) TimerEvent: {}
+[9.188823] (-) TimerEvent: {}
+[9.289652] (-) TimerEvent: {}
+[9.390528] (-) TimerEvent: {}
+[9.491292] (-) TimerEvent: {}
+[9.592010] (-) TimerEvent: {}
+[9.692935] (-) TimerEvent: {}
+[9.793628] (-) TimerEvent: {}
+[9.894318] (-) TimerEvent: {}
+[9.995051] (-) TimerEvent: {}
+[10.095725] (-) TimerEvent: {}
+[10.196481] (-) TimerEvent: {}
+[10.297222] (-) TimerEvent: {}
+[10.397900] (-) TimerEvent: {}
+[10.498613] (-) TimerEvent: {}
+[10.599288] (-) TimerEvent: {}
+[10.699961] (-) TimerEvent: {}
+[10.800711] (-) TimerEvent: {}
+[10.901417] (-) TimerEvent: {}
+[11.002072] (-) TimerEvent: {}
+[11.102763] (-) TimerEvent: {}
+[11.203457] (-) TimerEvent: {}
+[11.304111] (-) TimerEvent: {}
+[11.404760] (-) TimerEvent: {}
+[11.505599] (-) TimerEvent: {}
+[11.606669] (-) TimerEvent: {}
+[11.708117] (-) TimerEvent: {}
+[11.808828] (-) TimerEvent: {}
+[11.909646] (-) TimerEvent: {}
+[12.010282] (-) TimerEvent: {}
+[12.110925] (-) TimerEvent: {}
+[12.212108] (-) TimerEvent: {}
+[12.312946] (-) TimerEvent: {}
+[12.413671] (-) TimerEvent: {}
+[12.514376] (-) TimerEvent: {}
+[12.615084] (-) TimerEvent: {}
+[12.715770] (-) TimerEvent: {}
+[12.816425] (-) TimerEvent: {}
+[12.917124] (-) TimerEvent: {}
+[13.017863] (-) TimerEvent: {}
+[13.118550] (-) TimerEvent: {}
+[13.220469] (-) TimerEvent: {}
+[13.321609] (-) TimerEvent: {}
+[13.422287] (-) TimerEvent: {}
+[13.523084] (-) TimerEvent: {}
+[13.623812] (-) TimerEvent: {}
+[13.724773] (-) TimerEvent: {}
+[13.825511] (-) TimerEvent: {}
+[13.926550] (-) TimerEvent: {}
+[14.027313] (-) TimerEvent: {}
+[14.129517] (-) TimerEvent: {}
+[14.230197] (-) TimerEvent: {}
+[14.331005] (-) TimerEvent: {}
+[14.431735] (-) TimerEvent: {}
+[14.532584] (-) TimerEvent: {}
+[14.633325] (-) TimerEvent: {}
+[14.734423] (-) TimerEvent: {}
+[14.835153] (-) TimerEvent: {}
+[14.936354] (-) TimerEvent: {}
+[15.037082] (-) TimerEvent: {}
+[15.137734] (-) TimerEvent: {}
+[15.238426] (-) TimerEvent: {}
+[15.339246] (-) TimerEvent: {}
+[15.439953] (-) TimerEvent: {}
+[15.540624] (-) TimerEvent: {}
+[15.641414] (-) TimerEvent: {}
+[15.742082] (-) TimerEvent: {}
+[15.842803] (-) TimerEvent: {}
+[15.944017] (-) TimerEvent: {}
+[16.044877] (-) TimerEvent: {}
+[16.145572] (-) TimerEvent: {}
+[16.247377] (-) TimerEvent: {}
+[16.348102] (-) TimerEvent: {}
+[16.449431] (-) TimerEvent: {}
+[16.550186] (-) TimerEvent: {}
+[16.650918] (-) TimerEvent: {}
+[16.757404] (-) TimerEvent: {}
+[16.858688] (-) TimerEvent: {}
+[16.959396] (-) TimerEvent: {}
+[17.061146] (-) TimerEvent: {}
+[17.161904] (-) TimerEvent: {}
+[17.262616] (-) TimerEvent: {}
+[17.363322] (-) TimerEvent: {}
+[17.464219] (-) TimerEvent: {}
+[17.565012] (-) TimerEvent: {}
+[17.665799] (-) TimerEvent: {}
+[17.766524] (-) TimerEvent: {}
+[17.867444] (-) TimerEvent: {}
+[17.968321] (-) TimerEvent: {}
+[18.069202] (-) TimerEvent: {}
+[18.169882] (-) TimerEvent: {}
+[18.270886] (-) TimerEvent: {}
+[18.371600] (-) TimerEvent: {}
+[18.472717] (-) TimerEvent: {}
+[18.573651] (-) TimerEvent: {}
+[18.674362] (-) TimerEvent: {}
+[18.775051] (-) TimerEvent: {}
+[18.875766] (-) TimerEvent: {}
+[18.976574] (-) TimerEvent: {}
+[19.077560] (-) TimerEvent: {}
+[19.179737] (-) TimerEvent: {}
+[19.281672] (-) TimerEvent: {}
+[19.382518] (-) TimerEvent: {}
+[19.483229] (-) TimerEvent: {}
+[19.583968] (-) TimerEvent: {}
+[19.685229] (-) TimerEvent: {}
+[19.785953] (-) TimerEvent: {}
+[19.886761] (-) TimerEvent: {}
+[19.987547] (-) TimerEvent: {}
+[20.088245] (-) TimerEvent: {}
+[20.188969] (-) TimerEvent: {}
+[20.289690] (-) TimerEvent: {}
+[20.390316] (-) TimerEvent: {}
+[20.491236] (-) TimerEvent: {}
+[20.591916] (-) TimerEvent: {}
+[20.692615] (-) TimerEvent: {}
+[20.793289] (-) TimerEvent: {}
+[20.893965] (-) TimerEvent: {}
+[20.994674] (-) TimerEvent: {}
+[21.095390] (-) TimerEvent: {}
+[21.196148] (-) TimerEvent: {}
+[21.296811] (-) TimerEvent: {}
+[21.397506] (-) TimerEvent: {}
+[21.498368] (-) TimerEvent: {}
+[21.599219] (-) TimerEvent: {}
+[21.699985] (-) TimerEvent: {}
+[21.800683] (-) TimerEvent: {}
+[21.901357] (-) TimerEvent: {}
+[22.002012] (-) TimerEvent: {}
+[22.102639] (-) TimerEvent: {}
+[22.203290] (-) TimerEvent: {}
+[22.303981] (-) TimerEvent: {}
+[22.404693] (-) TimerEvent: {}
+[22.505326] (-) TimerEvent: {}
+[22.605937] (-) TimerEvent: {}
+[22.706558] (-) TimerEvent: {}
+[22.807260] (-) TimerEvent: {}
+[22.907931] (-) TimerEvent: {}
+[23.008603] (-) TimerEvent: {}
+[23.109386] (-) TimerEvent: {}
+[23.210125] (-) TimerEvent: {}
+[23.310855] (-) TimerEvent: {}
+[23.411599] (-) TimerEvent: {}
+[23.512295] (-) TimerEvent: {}
+[23.612992] (-) TimerEvent: {}
+[23.713699] (-) TimerEvent: {}
+[23.814373] (-) TimerEvent: {}
+[23.915006] (-) TimerEvent: {}
+[24.015644] (-) TimerEvent: {}
+[24.116294] (-) TimerEvent: {}
+[24.216986] (-) TimerEvent: {}
+[24.317772] (-) TimerEvent: {}
+[24.418516] (-) TimerEvent: {}
+[24.519172] (-) TimerEvent: {}
+[24.619814] (-) TimerEvent: {}
+[24.720495] (-) TimerEvent: {}
+[24.821208] (-) TimerEvent: {}
+[24.922181] (-) TimerEvent: {}
+[25.023023] (-) TimerEvent: {}
+[25.124390] (-) TimerEvent: {}
+[25.225178] (-) TimerEvent: {}
+[25.325841] (-) TimerEvent: {}
+[25.426466] (-) TimerEvent: {}
+[25.527190] (-) TimerEvent: {}
+[25.627888] (-) TimerEvent: {}
+[25.728583] (-) TimerEvent: {}
+[25.829291] (-) TimerEvent: {}
+[25.929962] (-) TimerEvent: {}
+[26.030601] (-) TimerEvent: {}
+[26.131256] (-) TimerEvent: {}
+[26.231920] (-) TimerEvent: {}
+[26.332606] (-) TimerEvent: {}
+[26.433309] (-) TimerEvent: {}
+[26.534040] (-) TimerEvent: {}
+[26.634724] (-) TimerEvent: {}
+[26.735463] (-) TimerEvent: {}
+[26.836181] (-) TimerEvent: {}
+[26.936941] (-) TimerEvent: {}
+[27.037647] (-) TimerEvent: {}
+[27.138374] (-) TimerEvent: {}
+[27.239066] (-) TimerEvent: {}
+[27.339752] (-) TimerEvent: {}
+[27.440505] (-) TimerEvent: {}
+[27.541135] (-) TimerEvent: {}
+[27.641778] (-) TimerEvent: {}
+[27.742383] (-) TimerEvent: {}
+[27.843069] (-) TimerEvent: {}
+[27.943872] (-) TimerEvent: {}
+[28.044565] (-) TimerEvent: {}
+[28.145309] (-) TimerEvent: {}
+[28.245964] (-) TimerEvent: {}
+[28.346803] (-) TimerEvent: {}
+[28.447536] (-) TimerEvent: {}
+[28.548260] (-) TimerEvent: {}
+[28.648995] (-) TimerEvent: {}
+[28.749715] (-) TimerEvent: {}
+[28.850319] (-) TimerEvent: {}
+[28.950942] (-) TimerEvent: {}
+[29.051576] (-) TimerEvent: {}
+[29.152214] (-) TimerEvent: {}
+[29.253019] (-) TimerEvent: {}
+[29.353816] (-) TimerEvent: {}
+[29.454599] (-) TimerEvent: {}
+[29.555410] (-) TimerEvent: {}
+[29.656224] (-) TimerEvent: {}
+[29.757024] (-) TimerEvent: {}
+[29.857825] (-) TimerEvent: {}
+[29.958649] (-) TimerEvent: {}
+[30.059459] (-) TimerEvent: {}
+[30.160223] (-) TimerEvent: {}
+[30.260943] (-) TimerEvent: {}
+[30.361744] (-) TimerEvent: {}
+[30.462547] (-) TimerEvent: {}
+[30.563294] (-) TimerEvent: {}
+[30.664080] (-) TimerEvent: {}
+[30.764866] (-) TimerEvent: {}
+[30.865621] (-) TimerEvent: {}
+[30.966370] (-) TimerEvent: {}
+[31.067115] (-) TimerEvent: {}
+[31.167852] (-) TimerEvent: {}
+[31.268509] (-) TimerEvent: {}
+[31.369205] (-) TimerEvent: {}
+[31.469829] (-) TimerEvent: {}
+[31.570539] (-) TimerEvent: {}
+[31.671187] (-) TimerEvent: {}
+[31.771851] (-) TimerEvent: {}
+[31.872517] (-) TimerEvent: {}
+[31.973148] (-) TimerEvent: {}
+[32.073816] (-) TimerEvent: {}
+[32.174526] (-) TimerEvent: {}
+[32.275178] (-) TimerEvent: {}
+[32.286707] (lslidar_driver) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable lslidar_driver_node\x1b[0m\n'}
+[32.375365] (-) TimerEvent: {}
+[32.476127] (-) TimerEvent: {}
+[32.576866] (-) TimerEvent: {}
+[32.677562] (-) TimerEvent: {}
+[32.778327] (-) TimerEvent: {}
+[32.879089] (-) TimerEvent: {}
+[32.979837] (-) TimerEvent: {}
+[33.080600] (-) TimerEvent: {}
+[33.181399] (-) TimerEvent: {}
+[33.282135] (-) TimerEvent: {}
+[33.383031] (-) TimerEvent: {}
+[33.483852] (-) TimerEvent: {}
+[33.584570] (-) TimerEvent: {}
+[33.685296] (-) TimerEvent: {}
+[33.786077] (-) TimerEvent: {}
+[33.886816] (-) TimerEvent: {}
+[33.987594] (-) TimerEvent: {}
+[34.088406] (-) TimerEvent: {}
+[34.189167] (-) TimerEvent: {}
+[34.191802] (lslidar_driver) StdoutLine: {'line': b'[100%] Built target lslidar_driver_node\n'}
+[34.232914] (lslidar_driver) CommandEnded: {'returncode': 0}
+[34.289389] (-) TimerEvent: {}
+[34.301633] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'install'}
+[34.303105] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/Desktop/cartographer_ws/build/lslidar_driver'], 'cwd': '/home/jetson/Desktop/cartographer_ws/build/lslidar_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'jetson'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '3061'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib:/usr/local/cuda/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64'), ('HOME', '/home/jetson'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.4.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin Nano Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2509'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3584'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/cartographer_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (4GB ram)'), ('JETSON_SERIAL_NUMBER', '1421524220133'), ('JOURNAL_STREAM', '8:55973'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3096,unix/ubuntu:/tmp/.ICE-unix/3096'), ('INVOCATION_ID', '3238424123f64c488c7e81ea3d2cdc95'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9870dd3bfd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/Desktop/cartographer_ws/build/lslidar_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.2'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3767-0004')]), 'shell': False}
+[34.327270] (lslidar_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.328036] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch\n'}
+[34.328321] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py\n'}
+[34.328535] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py\n'}
+[34.328803] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py\n'}
+[34.329036] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py\n'}
+[34.329244] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py\n'}
+[34.329499] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py\n'}
+[34.329760] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py\n'}
+[34.330022] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py\n'}
+[34.330298] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py\n'}
+[34.330569] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py\n'}
+[34.330848] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params\n'}
+[34.331086] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2\n'}
+[34.331298] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml\n'}
+[34.331586] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml\n'}
+[34.331866] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml\n'}
+[34.332215] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml\n'}
+[34.332437] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2\n'}
+[34.332661] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml\n'}
+[34.332928] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml\n'}
+[34.333204] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml\n'}
+[34.333479] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml\n'}
+[34.333760] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/rviz\n'}
+[34.333967] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz\n'}
+[34.334618] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node\n'}
+[34.341601] (lslidar_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/cartographer_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""\n'}
+[34.342322] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver\n'}
+[34.342942] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver\n'}
+[34.344496] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh\n'}
+[34.345081] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv\n'}
+[34.345501] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh\n'}
+[34.345883] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv\n'}
+[34.346313] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash\n'}
+[34.346692] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh\n'}
+[34.347058] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh\n'}
+[34.347444] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv\n'}
+[34.347808] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/package.dsv\n'}
+[34.348432] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver\n'}
+[34.348957] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[34.349416] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[34.349905] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake\n'}
+[34.350221] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake\n'}
+[34.350636] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/cartographer_ws/install/lslidar_driver/share/lslidar_driver/package.xml\n'}
+[34.356404] (lslidar_driver) CommandEnded: {'returncode': 0}
+[34.389770] (-) TimerEvent: {}
+[34.461720] (lslidar_driver) JobEnded: {'identifier': 'lslidar_driver', 'rc': 0}
+[34.464596] (-) EventReactorShutdown: {}

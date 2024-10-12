@@ -1,0 +1,7 @@
+[0.070s] Invoking command in '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/cartographer_ws/build/lslidar_msgs -- -j4 -l4
+[0.109s] CMake Error: The current CMakeCache.txt directory /home/ubuntu/Desktop/cartographer_ws/build/lslidar_msgs/CMakeCache.txt is different than the directory /home/jetson/Desktop/cartographer_ws/build/lslidar_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.122s] make: Warning: File 'Makefile' has modification time 22044 s in the future
+[0.159s] CMake Error: The source directory "/home/jetson/Desktop/cartographer_ws/lslidar_msgs" does not exist.
+[0.160s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.164s] make: *** [Makefile:1708: cmake_check_build_system] Error 1
+[0.182s] Invoked command in '/home/ubuntu/Desktop/cartographer_ws/build/lslidar_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/cartographer_ws/build/lslidar_msgs -- -j4 -l4

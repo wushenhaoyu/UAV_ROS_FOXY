@@ -1,0 +1,52 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetson/Desktop/cartographer_ws/build/my_cartographer
+-- Install configuration: ""
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/ament_index/resource_index/package_run_dependencies/my_cartographer
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/ament_index/resource_index/parent_prefix_path/my_cartographer
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/environment/ament_prefix_path.sh
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/environment/ament_prefix_path.dsv
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/environment/path.sh
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/environment/path.dsv
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/local_setup.bash
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/local_setup.sh
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/local_setup.zsh
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/local_setup.dsv
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/package.dsv
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/ament_index/resource_index/packages/my_cartographer
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/cmake/my_cartographerConfig.cmake
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/cmake/my_cartographerConfig-version.cmake
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/package.xml
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/config
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/config/uav.urdf
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/launch
+-- Installing: /home/jetson/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/launch/run_lanuch.py
+CMake Error at cmake_install.cmake:100 (file):
+  file INSTALL cannot find
+  "/home/jetson/Desktop/cartographer_ws/my_cartographer/rviz": No such file
+  or directory.
+
+

@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/Desktop/cartographer_ws/build/my_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/cartographer_ws/build/my_cartographer -- -j4 -l4
+Invoked command in '/home/ubuntu/Desktop/cartographer_ws/build/my_cartographer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/cartographer_ws/build/my_cartographer -- -j4 -l4

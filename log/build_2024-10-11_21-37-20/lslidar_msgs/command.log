@@ -1,0 +1,2 @@
+Invoking command in '/home/jetson/Desktop/cartographer_ws/build/lslidar_msgs': /usr/bin/cmake /home/jetson/Desktop/cartographer_ws/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs
+Invoked command in '/home/jetson/Desktop/cartographer_ws/build/lslidar_msgs' returned '1': /usr/bin/cmake /home/jetson/Desktop/cartographer_ws/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/cartographer_ws/install/lslidar_msgs
