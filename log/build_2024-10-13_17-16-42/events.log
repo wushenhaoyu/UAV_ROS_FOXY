@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.001375] (-) JobUnselected: {'identifier': 'cartographer'}
+[0.001709] (-) JobUnselected: {'identifier': 'cartographer_ros'}
+[0.001787] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.001849] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.001896] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.004949] (-) JobUnselected: {'identifier': 'my_cartographer'}
+[0.005990] (-) JobUnselected: {'identifier': 'serial'}
+[0.006059] (-) JobUnselected: {'identifier': 'tf_init'}
+[0.006178] (imu) JobQueued: {'identifier': 'imu', 'dependencies': OrderedDict()}
+[0.006251] (imu) JobStarted: {'identifier': 'imu'}
+[0.100100] (-) TimerEvent: {}
+[0.201215] (-) TimerEvent: {}
+[0.301707] (-) TimerEvent: {}
+[0.402160] (-) TimerEvent: {}
+[0.502754] (-) TimerEvent: {}
+[0.603300] (-) TimerEvent: {}
+[0.703945] (-) TimerEvent: {}
+[0.805843] (-) TimerEvent: {}
+[0.907671] (-) TimerEvent: {}
+[1.014739] (-) TimerEvent: {}
+[1.115192] (-) TimerEvent: {}
+[1.215662] (-) TimerEvent: {}
+[1.316118] (-) TimerEvent: {}
+[1.416571] (-) TimerEvent: {}
+[1.517091] (-) TimerEvent: {}
+[1.617484] (-) TimerEvent: {}
+[1.717969] (-) TimerEvent: {}
+[1.818437] (-) TimerEvent: {}
+[1.918938] (-) TimerEvent: {}
+[2.024803] (-) TimerEvent: {}
+[2.125346] (-) TimerEvent: {}
+[2.153171] (imu) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/imu', 'build', '--build-base', '/home/ubuntu/Desktop/cartographer_ws/build/imu/build', 'install', '--record', '/home/ubuntu/Desktop/cartographer_ws/build/imu/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/Desktop/cartographer_ws/src/imu', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'ubuntu', 'LC_TIME': 'zh_CN.UTF-8', 'SSH_AGENT_PID': '1532', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/Desktop/cartographer_ws/install/serial/lib:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.86.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1215', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1951', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntu/Desktop/cartographer_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:47165', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/ubuntu/Desktop/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/Desktop/cartographer_ws/install/cartographer/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/ubuntu/.local/bin:/home/ubuntu/Desktop/cartographer_ws/install/cartographer/bin:/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-virtual-machine:@/tmp/.ICE-unix/1568,unix/ubuntu-virtual-machine:/tmp/.ICE-unix/1568', 'INVOCATION_ID': 'cb5ce9dbef1042869a90fda04ffc02cb', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-24cc3eeaf3.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/Desktop/cartographer_ws/install/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/serial:/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/imu:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/foxy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Desktop/cartographer_ws/build/imu', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Desktop/cartographer_ws/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/cartographer_ws/install/imu/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/tf_init/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/imu/lib/python3.8/site-packages:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Desktop/cartographer_ws/install/serial:/home/ubuntu/Desktop/cartographer_ws/install/my_cartographer:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_driver:/home/ubuntu/Desktop/cartographer_ws/install/lslidar_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros:/home/ubuntu/Desktop/cartographer_ws/install/cartographer_ros_msgs:/home/ubuntu/Desktop/cartographer_ws/install/cartographer'}, 'shell': False}
+[2.226111] (-) TimerEvent: {}
+[2.327894] (-) TimerEvent: {}
+[2.430626] (-) TimerEvent: {}
+[2.531414] (-) TimerEvent: {}
+[2.631912] (-) TimerEvent: {}
+[2.732981] (-) TimerEvent: {}
+[2.790021] (imu) StdoutLine: {'line': b'running egg_info\n'}
+[2.791270] (imu) StdoutLine: {'line': b'writing ../../build/imu/imu.egg-info/PKG-INFO\n'}
+[2.792610] (imu) StdoutLine: {'line': b'writing dependency_links to ../../build/imu/imu.egg-info/dependency_links.txt\n'}
+[2.793831] (imu) StdoutLine: {'line': b'writing entry points to ../../build/imu/imu.egg-info/entry_points.txt\n'}
+[2.797026] (imu) StdoutLine: {'line': b'writing requirements to ../../build/imu/imu.egg-info/requires.txt\n'}
+[2.798015] (imu) StdoutLine: {'line': b'writing top-level names to ../../build/imu/imu.egg-info/top_level.txt\n'}
+[2.841092] (-) TimerEvent: {}
+[2.882910] (imu) StdoutLine: {'line': b"reading manifest file '../../build/imu/imu.egg-info/SOURCES.txt'\n"}
+[2.887605] (imu) StdoutLine: {'line': b"writing manifest file '../../build/imu/imu.egg-info/SOURCES.txt'\n"}
+[2.888254] (imu) StdoutLine: {'line': b'running build\n'}
+[2.888602] (imu) StdoutLine: {'line': b'running build_py\n'}
+[2.888750] (imu) StdoutLine: {'line': b'copying imu/imu_serial.py -> /home/ubuntu/Desktop/cartographer_ws/build/imu/build/lib/imu\n'}
+[2.888833] (imu) StdoutLine: {'line': b'running install\n'}
+[2.890409] (imu) StdoutLine: {'line': b'running install_lib\n'}
+[2.892738] (imu) StdoutLine: {'line': b'copying /home/ubuntu/Desktop/cartographer_ws/build/imu/build/lib/imu/imu_serial.py -> /home/ubuntu/Desktop/cartographer_ws/install/imu/lib/python3.8/site-packages/imu\n'}
+[2.898572] (imu) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Desktop/cartographer_ws/install/imu/lib/python3.8/site-packages/imu/imu_serial.py to imu_serial.cpython-38.pyc\n'}
+[2.905176] (imu) StdoutLine: {'line': b'running install_data\n'}
+[2.905472] (imu) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.909253] (imu) StdoutLine: {'line': b"removing '/home/ubuntu/Desktop/cartographer_ws/install/imu/lib/python3.8/site-packages/imu-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.922067] (imu) StdoutLine: {'line': b'Copying ../../build/imu/imu.egg-info to /home/ubuntu/Desktop/cartographer_ws/install/imu/lib/python3.8/site-packages/imu-0.0.0-py3.8.egg-info\n'}
+[2.922398] (imu) StdoutLine: {'line': b'running install_scripts\n'}
+[2.941888] (-) TimerEvent: {}
+[2.968045] (imu) StdoutLine: {'line': b'Installing imu_serial script to /home/ubuntu/Desktop/cartographer_ws/install/imu/lib/imu\n'}
+[2.972701] (imu) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Desktop/cartographer_ws/build/imu/install.log'\n"}
+[3.021611] (imu) CommandEnded: {'returncode': 0}
+[3.059008] (imu) JobEnded: {'identifier': 'imu', 'rc': 0}
+[3.060917] (-) TimerEvent: {}
+[3.061170] (-) EventReactorShutdown: {}

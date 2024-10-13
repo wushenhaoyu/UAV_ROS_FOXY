@@ -1,0 +1,3 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="55d4", ATTRS{serial}=="0001", SYMLINK+="wheeltec_lidar"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="5269", ATTRS{idProduct}=="6367", ATTRS{serial}=="2024041201", SYMLINK+="imu"
+#/etc/udev/rules.d

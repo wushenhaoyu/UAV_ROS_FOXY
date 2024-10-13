@@ -39,7 +39,7 @@ def generate_launch_description():
         parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}],
         arguments=['-configuration_directory', configuration_directory,
                    '-configuration_basename', configuration_basename],
-        remappings=[('scan', 'scan')],
+        remappings=[('scan', 'scan'),('imu/data', 'imu/data')],
         output='screen'
     )
 
@@ -70,6 +70,13 @@ def generate_launch_description():
         output='screen'
     )
 
+    imu_node = Node(
+        package='imu',
+        executable='imu_serial',
+        name='imu_serial',
+        output='screen'
+    )
+
     # TF publisher node (from tf_init package)
     tf_publisher_node = Node(
         package='tf_init',  # Ensure this matches your package name
@@ -79,6 +86,7 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
+        imu_node,
         use_sim_time_arg,
         lslidar_launch,
         rviz_node,
