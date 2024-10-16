@@ -1,0 +1,25 @@
+[0.068s] Invoking command in '/home/ubuntu/Desktop/cartographer_ws/build/my_cartographer': CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/cartographer_ws/install/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/imu:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ubuntu/Desktop/cartographer_ws/build/my_cartographer -- -j2 -l2
+[0.249s] Invoked command in '/home/ubuntu/Desktop/cartographer_ws/build/my_cartographer' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/cartographer_ws/install/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/imu:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ubuntu/Desktop/cartographer_ws/build/my_cartographer -- -j2 -l2
+[0.456s] Invoking command in '/home/ubuntu/Desktop/cartographer_ws/build/my_cartographer': CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/cartographer_ws/install/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/imu:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ubuntu/Desktop/cartographer_ws/build/my_cartographer
+[0.487s] -- Install configuration: ""
+[0.487s] -- Execute custom install script
+[0.487s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/ament_index/resource_index/package_run_dependencies/my_cartographer
+[0.490s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/ament_index/resource_index/parent_prefix_path/my_cartographer
+[0.491s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/environment/ament_prefix_path.sh
+[0.491s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/environment/ament_prefix_path.dsv
+[0.492s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/environment/path.sh
+[0.493s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/environment/path.dsv
+[0.495s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/local_setup.bash
+[0.496s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/local_setup.sh
+[0.497s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/local_setup.zsh
+[0.500s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/local_setup.dsv
+[0.500s] -- Symlinking: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/package.dsv
+[0.532s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/ament_index/resource_index/packages/my_cartographer
+[0.533s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/cmake/my_cartographerConfig.cmake
+[0.534s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/cmake/my_cartographerConfig-version.cmake
+[0.535s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/package.xml
+[0.536s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/config/my_cartogrpaher_2d.lua
+[0.537s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/launch/run_launch.py
+[0.538s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/rviz/default.rviz
+[0.539s] -- Up-to-date symlink: /home/ubuntu/Desktop/cartographer_ws/install/my_cartographer/share/my_cartographer/urdf/backpack_2d.urdf
+[0.553s] Invoked command in '/home/ubuntu/Desktop/cartographer_ws/build/my_cartographer' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/cartographer_ws/install/tf_init:/home/ubuntu/Desktop/cartographer_ws/install/imu:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ubuntu/Desktop/cartographer_ws/build/my_cartographer

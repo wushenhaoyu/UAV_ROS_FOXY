@@ -62,7 +62,7 @@ class SerialDataReceiver(Node):
         try:
             unpacked_data = struct.unpack('<10f', data)
             imu_msg = Imu()
-            imu_msg.header.frame_id = 'imu_link'
+            imu_msg.header.frame_id = 'laser'
             imu_msg.header.stamp = self.get_clock().now().to_msg()
             
             # 加速度数据
