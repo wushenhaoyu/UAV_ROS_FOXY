@@ -1,0 +1,17 @@
+[2.514s] Invoking command in '/home/ubuntu/Desktop/cartographer_ws/build/imu': PYTHONPATH=/home/ubuntu/Desktop/cartographer_ws/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/cartographer_ws/install/imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/Desktop/cartographer_ws/build/imu/build --no-deps symlink_data
+[3.358s] running develop
+[3.765s] running egg_info
+[3.765s] writing imu.egg-info/PKG-INFO
+[3.765s] writing dependency_links to imu.egg-info/dependency_links.txt
+[3.766s] writing entry points to imu.egg-info/entry_points.txt
+[3.770s] writing requirements to imu.egg-info/requires.txt
+[3.771s] writing top-level names to imu.egg-info/top_level.txt
+[3.865s] reading manifest file 'imu.egg-info/SOURCES.txt'
+[3.865s] writing manifest file 'imu.egg-info/SOURCES.txt'
+[3.950s] running build_ext
+[3.951s] Creating /home/ubuntu/Desktop/cartographer_ws/install/imu/lib/python3.8/site-packages/imu.egg-link (link to .)
+[3.954s] Installing imu_serial script to /home/ubuntu/Desktop/cartographer_ws/install/imu/lib/imu
+[3.957s] 
+[3.958s] Installed /home/ubuntu/Desktop/cartographer_ws/build/imu
+[3.958s] running symlink_data
+[4.054s] Invoked command in '/home/ubuntu/Desktop/cartographer_ws/build/imu' returned '0': PYTHONPATH=/home/ubuntu/Desktop/cartographer_ws/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/cartographer_ws/install/imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/Desktop/cartographer_ws/build/imu/build --no-deps symlink_data

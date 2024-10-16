@@ -31,37 +31,6 @@ def generate_launch_description():
         ),
     )
 
-    # Cartographer node
-    cartographer_node = Node(
-        package='cartographer_ros',
-        executable='cartographer_node',
-        name='cartographer_node',
-        parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}],
-        arguments=['-configuration_directory', configuration_directory,
-                   '-configuration_basename', configuration_basename],
-        remappings=[('scan', 'scan'),('imu/data', 'imu/data')],
-        output='screen'
-    )
-
-    # Occupancy grid node
-    cartographer_occupancy_grid_node = Node(
-        package='cartographer_ros',
-        executable='occupancy_grid_node',
-        parameters=[
-            {'use_sim_time': LaunchConfiguration('use_sim_time')}],
-        arguments=['-resolution', resolution, '-publish_period_sec', publish_period_sec]
-    )
-    
-    # RViz node
-    rviz_node = Node(
-        package='rviz2',
-        namespace='rviz2',
-        executable='rviz2',
-        name='rviz2',
-        output='screen',
-         arguments=['-d',  rviz_file ]
-    )
-    
     # Robot state publisher node
     robot_state_publisher_node = Node(
         package='robot_state_publisher',
@@ -84,6 +53,38 @@ def generate_launch_description():
         name='tf_publisher',
         output='screen'
     )
+
+        # Cartographer node
+    cartographer_node = Node(
+        package='cartographer_ros',
+        executable='cartographer_node',
+        name='cartographer_node',
+        parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}],
+        arguments=['-configuration_directory', configuration_directory,
+                   '-configuration_basename', configuration_basename],
+        remappings=[('scan', 'scan'),('imu', 'imu/data')],
+        output='screen'
+    )
+
+    # Occupancy grid node
+    cartographer_occupancy_grid_node = Node(
+        package='cartographer_ros',
+        executable='occupancy_grid_node',
+        parameters=[
+            {'use_sim_time': LaunchConfiguration('use_sim_time')}],
+        arguments=['-resolution', resolution, '-publish_period_sec', publish_period_sec]
+    )
+    
+    # RViz node
+    rviz_node = Node(
+        package='rviz2',
+        namespace='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        output='screen',
+         arguments=['-d',  rviz_file ]
+    )
+    
 
     return LaunchDescription([
         imu_node,

@@ -1,0 +1,21 @@
+[4.223s] Invoking command in '/home/ubuntu/Desktop/cartographer_ws/src/tf_init': PYTHONPATH=/home/ubuntu/Desktop/cartographer_ws/build/tf_init/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/cartographer_ws/install/tf_init/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf_init build --build-base /home/ubuntu/Desktop/cartographer_ws/build/tf_init/build install --record /home/ubuntu/Desktop/cartographer_ws/build/tf_init/install.log --install-scripts $base/lib/tf_init --single-version-externally-managed install_data
+[4.684s] running egg_info
+[4.685s] writing ../../build/tf_init/tf_init.egg-info/PKG-INFO
+[4.685s] writing dependency_links to ../../build/tf_init/tf_init.egg-info/dependency_links.txt
+[4.693s] writing entry points to ../../build/tf_init/tf_init.egg-info/entry_points.txt
+[4.694s] writing requirements to ../../build/tf_init/tf_init.egg-info/requires.txt
+[4.699s] writing top-level names to ../../build/tf_init/tf_init.egg-info/top_level.txt
+[4.817s] reading manifest file '../../build/tf_init/tf_init.egg-info/SOURCES.txt'
+[4.818s] writing manifest file '../../build/tf_init/tf_init.egg-info/SOURCES.txt'
+[4.819s] running build
+[4.819s] running build_py
+[4.824s] running install
+[4.824s] running install_lib
+[4.827s] running install_data
+[4.827s] running install_egg_info
+[4.830s] removing '/home/ubuntu/Desktop/cartographer_ws/install/tf_init/lib/python3.8/site-packages/tf_init-0.0.1-py3.8.egg-info' (and everything under it)
+[4.839s] Copying ../../build/tf_init/tf_init.egg-info to /home/ubuntu/Desktop/cartographer_ws/install/tf_init/lib/python3.8/site-packages/tf_init-0.0.1-py3.8.egg-info
+[4.840s] running install_scripts
+[4.875s] Installing tf_publisher script to /home/ubuntu/Desktop/cartographer_ws/install/tf_init/lib/tf_init
+[4.882s] writing list of installed files to '/home/ubuntu/Desktop/cartographer_ws/build/tf_init/install.log'
+[4.976s] Invoked command in '/home/ubuntu/Desktop/cartographer_ws/src/tf_init' returned '0': PYTHONPATH=/home/ubuntu/Desktop/cartographer_ws/build/tf_init/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/cartographer_ws/install/tf_init/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf_init build --build-base /home/ubuntu/Desktop/cartographer_ws/build/tf_init/build install --record /home/ubuntu/Desktop/cartographer_ws/build/tf_init/install.log --install-scripts $base/lib/tf_init --single-version-externally-managed install_data

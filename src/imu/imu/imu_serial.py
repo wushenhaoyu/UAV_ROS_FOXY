@@ -38,7 +38,6 @@ class SerialDataReceiver(Node):
                     self.current = self.current + 1
                 elif self.current == 1:
                     self.length = int.from_bytes(byte, byteorder='big')
-                    self.get_logger().info(self.length)
                     self.current = self.current + 1
                 elif self.current - 2 < self.length:
                     self.buffer.extend(byte)
@@ -61,9 +60,9 @@ class SerialDataReceiver(Node):
 
     def process_imu_data(self, data):
         try:
-            unpacked_data = struct.unpack('<9f', data)
+            unpacked_data = struct.unpack('<10f', data)
             imu_msg = Imu()
-            imu_msg.header.frame_id = 'imu_link'
+            imu_msg.header.frame_id = 'base_link'
             imu_msg.header.stamp = self.get_clock().now().to_msg()
             
             # 加速度数据

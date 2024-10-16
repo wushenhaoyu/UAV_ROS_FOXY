@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.002390] (-) JobUnselected: {'identifier': 'cartographer'}
+[0.002495] (-) JobUnselected: {'identifier': 'cartographer_ros'}
+[0.002518] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.002541] (-) JobUnselected: {'identifier': 'imu'}
+[0.002560] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.002578] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.002605] (-) JobUnselected: {'identifier': 'my_cartographer'}
+[0.002623] (-) JobUnselected: {'identifier': 'serial'}
+[0.002641] (-) JobUnselected: {'identifier': 'tf_init'}
+[0.003904] (-) EventReactorShutdown: {}
