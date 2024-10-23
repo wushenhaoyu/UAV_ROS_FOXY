@@ -6,7 +6,10 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Imu
 from tf2_ros import StaticTransformBroadcaster, TransformStamped
-
+from geometry_msgs.msg import TransformStamped
+from tf2_ros import Buffer, TransformListener
+from rclpy.time import Time
+from geometry_msgs.msg import Point 
 
 class SerialDataReceiver(Node):
     def __init__(self):
@@ -20,6 +23,15 @@ class SerialDataReceiver(Node):
         self.length = 0
         self.func = 0
         self.current = 0
+
+        self.tf_buffer = Buffer()
+        self.tf_listener = TransformListener(self.tf_buffer, self)
+        self.tf_timer = self.create_timer(0.2, self.send_location_data)
+        self.deviation_subscriber = self.create_subscription(
+            Point,
+            'deviations',
+            self.deviation_callback,
+            10)
 
     def read_and_publish_imu_data(self):
         while self.serial_port.in_waiting > 0:
@@ -62,7 +74,7 @@ class SerialDataReceiver(Node):
         try:
             unpacked_data = struct.unpack('<10f', data)
             imu_msg = Imu()
-            imu_msg.header.frame_id = 'base_link'
+            imu_msg.header.frame_id = 'camera_pose_frame'
             imu_msg.header.stamp = self.get_clock().now().to_msg()
             
             # 加速度数据
@@ -84,6 +96,48 @@ class SerialDataReceiver(Node):
             self.imu_publisher.publish(imu_msg)
         except struct.error:
             self.get_logger().error('Failed to unpack data, unexpected format or length.')
+
+    def send_location_data(self):
+        current_time = Time()
+        try:
+            # Lookup the transform from 'map' to 'base_link'
+            transform = self.tf_buffer.lookup_transform('map', 'camera_pose_frame', current_time)
+            x = transform.transform.translation.x
+            y = transform.transform.translation.y
+            data = bytearray()
+            data.append(0xAA)  # Start byte
+            data.append(0x01)  # Function code, assuming 0x01 for position data
+            data.append(0x08)  # Function code, assuming 0x01 for position data
+            data.extend(struct.pack('<ff', x, y))  # x and y coordinates as little-endian floats
+            data.append(0xAF)  # End byte
+
+            # Write the data to the serial port
+            self.serial_port.write(bytes(data))
+            self.get_logger().info('location: (%f,%f)' % (x, y))
+
+        except Exception as e:
+            self.get_logger().info('Exception: %s' % e)
+    def deviation_callback(self, msg):
+        # 当接收到偏差值时，调用 send_xy_data 函数
+        self.send_xy_data(msg.x, msg.y)
+
+    def send_xy_data(self, x, y):
+        data = bytearray()
+        data.append(0xAA)  # Start byte
+        data.append(0x02)  # Function code, assuming 0x01 for position data
+        data.append(0x08)  # Length of the data
+        data.extend(struct.pack('<ff', x, y))  # x and y coordinates as little-endian floats
+        data.append(0xAF)  # End byte
+
+        # Write the data to the serial port
+        self.serial_port.write(bytes(data))
+        #self.get_logger().info('Sent location: (%f, %f)' % (x, y))
+        
+
+            
+     
+            
+
 
 
 def main(args=None):

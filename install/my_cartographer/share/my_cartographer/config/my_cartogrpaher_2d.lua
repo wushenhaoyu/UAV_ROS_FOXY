@@ -1,1 +1,0 @@
-/home/ubuntu/Desktop/cartographer_ws/src/my_cartographer/config/my_cartogrpaher_2d.lua

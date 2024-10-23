@@ -1,1 +1,0 @@
-/home/ubuntu/Desktop/cartographer_ws/src/lslidar_driver/launch/lsm10p_net_launch.py

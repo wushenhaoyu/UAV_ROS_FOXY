@@ -1,5 +1,0 @@
-[ 68%] Built target cartographer_ros
-[ 68%] Built target cartographer_ros_detect_changes
-[ 78%] Built target pbstream_to_ros_map_node
-[ 89%] Built target occupancy_grid_node
-[100%] Built target cartographer_node

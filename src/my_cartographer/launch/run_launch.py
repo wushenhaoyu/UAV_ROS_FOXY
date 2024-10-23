@@ -25,17 +25,30 @@ def generate_launch_description():
     with open(urdf_file, 'r') as infp:
         robot_desc = infp.read()
     
-    lslidar_launch = IncludeLaunchDescription(
+    """lslidar_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(FindPackageShare('lslidar_driver').find('lslidar_driver'), 'launch', 'lsn10_launch.py')
         ),
+    )"""
+    lslidar_process = Node(
+        package='lidar_processor',
+        executable='lidar_scanner_node',
+        name="lidar_scanner_node",
+        output='screen'
     )
 
     # Robot state publisher node
-    robot_state_publisher_node = Node(
+    """robot_state_publisher_node = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
         parameters=[{'robot_description': robot_desc}],
+        output='screen'
+    )"""
+
+    camera_node = Node(
+        package='camera',
+        executable='bottom_camera',
+        name='bottom_camera',
         output='screen'
     )
 
@@ -62,7 +75,7 @@ def generate_launch_description():
         parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}],
         arguments=['-configuration_directory', configuration_directory,
                    '-configuration_basename', configuration_basename],
-        remappings=[('scan', 'scan'),('imu', 'imu/data')],
+        remappings=[('scan', 'my_scan'),('imu', 'imu/data'),('odom','camera/pose/sample')],
         output='screen'
     )
 
@@ -75,24 +88,25 @@ def generate_launch_description():
         arguments=['-resolution', resolution, '-publish_period_sec', publish_period_sec]
     )
     
-    # RViz node
-    rviz_node = Node(
+    # RViz no
+    """rviz_node = Node(
         package='rviz2',
         namespace='rviz2',
         executable='rviz2',
         name='rviz2',
         output='screen',
          arguments=['-d',  rviz_file ]
-    )
+    )"""
     
 
     return LaunchDescription([
+        #lslidar_launch,
+        #robot_state_publisher_node,
         imu_node,
+        tf_publisher_node,  # Add the TF publisher node here
         use_sim_time_arg,
-        lslidar_launch,
-        rviz_node,
+        lslidar_process ,
         cartographer_node,
         cartographer_occupancy_grid_node,
-        robot_state_publisher_node,
-        tf_publisher_node,  # Add the TF publisher node here
+        #rviz_node,
     ])

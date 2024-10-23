@@ -1,1 +1,1 @@
-累死
+pip install pyserials

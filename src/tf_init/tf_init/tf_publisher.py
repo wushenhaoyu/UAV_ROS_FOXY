@@ -23,7 +23,7 @@ class TFPublisher(Node):
         t = TransformStamped()
         t.header.stamp = self.get_clock().now().to_msg()
         t.header.frame_id = 'map'  # 地图框架
-        t.child_frame_id = 'base_link'  # 机器人框架
+        t.child_frame_id = 'camera_pose_frame'  # 机器人框架
 
         # 设置变换的平移部分
         t.transform.translation.x = 0.0  # x 轴位置

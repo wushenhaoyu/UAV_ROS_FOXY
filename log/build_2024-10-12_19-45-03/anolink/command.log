@@ -1,2 +1,0 @@
-Invoking command in '/home/ubuntu/Desktop/cartographer_ws/build/anolink': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/cartographer_ws/build/anolink -- -j2 -l2
-Invoked command in '/home/ubuntu/Desktop/cartographer_ws/build/anolink' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/cartographer_ws/build/anolink -- -j2 -l2

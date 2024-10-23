@@ -1,6 +1,6 @@
 /lslidar_driver_node:
   ros__parameters: 
-    frame_id: laser                                       #激光坐标
+    frame_id: camera_pose_frame                                       #激光坐标
     group_ip: 224.1.1.2
     add_multicast: false 
     device_ip: 192.168.1.200                   	            #雷达源IP
@@ -11,7 +11,7 @@
     angle_disable_min: 0.0                                  #角度裁剪开始值
     angle_disable_max: 0.0                                  #角度裁剪结束值
     min_range: 0.2                                          #雷达接收距离最小值
-    max_range: 200.0                                        #雷达接收距离最大值
+    max_range: 20.0                                        #雷达接收距离最大值
     use_gps_ts: false                                       #雷达是否使用GPS授时
     scan_topic: /scan                               #设置激光数据topic名称
     interface_selection: serial                             #接口选择:net 为网口,serial 为串口。
